@@ -1,0 +1,7079 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    color: #000000;
+}
+.mainConatiner {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+*, ::before, ::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    outline:none;
+}
+:focus, a:focus{
+    outline:none;
+}
+
+a, a:hover, a:active, a:focus{
+    text-decoration:none;
+    outline:none;
+    cursor:pointer;
+}
+
+
+p{
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0;
+}
+img{
+    display:block;
+    max-width:100%;
+}
+ul{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.pdngtb70{
+    padding:70px 0;
+}
+.pdngtb30{
+    padding: 30px 0;
+}
+.pdngtb30But{
+    padding: 0 0 30px;
+}
+.pdngtb20 {
+    padding: 20px 0;
+}
+.pdngbt20 {
+    padding: 0px 0px 20px 0;   
+}
+.pdngtbt70 {
+    padding:70px 0 30px 0;
+}
+.seprator{
+    border-top: 8px solid #f7f7f7;
+    padding-top:0;
+    width: 100%;
+    clear:both;
+}
+.scrlbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrlbar::-webkit-scrollbar
+{
+	width: 12px;
+	height:6px;
+	background-color: #F5F5F5;
+}
+
+.scrlbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #ffe9e2;
+}
+.mobview {
+    display: none;
+}
+
+.centretopleft {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.centertopbtm{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.centerlftrgt{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.disnone{
+    display:none;
+}
+.dp_container{
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+.dp_row{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.dp_row_inline{
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.dp_rowdir_clmn{
+    -webkit-flex-direction:column;
+	flex-direction:column;
+}
+.dp_rowdir_row{
+    -webkit-flex-direction: row;
+	flex-direction: row;
+}
+.alignbaseline{
+    align-items: baseline;
+}
+.alignflxend{
+    align-items: flex-end;
+}
+.aligncenter{
+    align-items: center;
+}
+.alignstart {
+    align-items: flex-start;
+}
+.alignstretch {
+    align-items: flex-stretch;
+}
+.dp_flexwrap{
+    flex-wrap: wrap;
+}
+.dp_flexflow{
+    flex-flow: wrap;
+}
+.dp_justifycontentcenter{
+    justify-content:center;
+}
+.dp_justifycontentflexStart{
+    justify-content: flex-start;
+}
+.dp_justifycontentspcbet{
+    justify-content:space-between;
+}
+.dp_rowdir_clmn{
+    -webkit-flex-direction:column;
+	flex-direction:column;
+}
+.dp_justifyspacear{
+    justify-content: space-around;
+}
+.alignbaseline{
+    align-items: baseline;
+}
+.alignflxend{
+    align-items: flex-end;
+}
+.aligncenter{
+    align-items: center;
+}
+.nocursr{
+    cursor: default !important;
+}
+.textalgncentr{
+    text-align:center;
+}
+section{
+    position: relative;
+}
+.overflowhide{
+    overflow:hidden;
+}
+.spriteimg{
+    display:inline-block;
+    background:url(https://economictimes.indiatimes.com/photo/80266843.cms) no-repeat;
+    background-size: 800px;
+}
+
+.spriteimg.facbook {
+    width: 40px;
+    height: 40px;
+    background-position: 4px -288px;
+}
+.spriteimg.linkdin {
+    width: 40px;
+    height: 40px;
+    background-position: -47px -288px;
+}
+.spriteimg.twit {
+    width: 40px;
+    height: 40px;
+    background-position: -98px -288px;
+}
+.spriteimg.inst {
+    width: 40px;
+    height: 40px;
+    background-position: -149px -288px;
+}
+.spriteimg.contact {
+    width: 24px;
+    height: 29px;
+    background-position: -91px -533px;
+}
+.spriteimg.moblie {
+    width: 31px;
+    height: 21px;
+    background-position: -136px -589px;
+}
+.spriteimg.emails {
+    width: 35px;
+    height: 34px;
+    background-position:3px -543px;
+}
+.spriteimg.cntcts {
+    width: 33px;
+    height: 33px;
+    background-position: -51px -590px;
+}
+.title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 14px;
+    color:#041555;
+}
+.title span{
+    color:#858585;
+}
+.btnMain{
+    margin-top:50px;
+}
+.btn, .btn:hover, .btn:focus, .btn:active{
+    display: inline-block;
+    font-size: 14.1px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    border-radius: 3.8px;
+    background-color: #97291e;
+    padding: 12px 15px;
+}
+p.gdprLocation {
+    padding: 1.2em;
+    text-align: center;
+    width: 100%;
+    float: left;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+input, textarea, select{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.08px;
+    padding: 9.3px 15px;
+    width: 100%;
+    border: solid 1px #737373;
+    background-color: #f7f7f7;
+    color: #000000;
+}
+label{
+    width:100%;
+}
+select{
+    position:relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+select:not(:checked):first-child {
+    color: #8c9da9;
+}
+select::-ms-expand {
+    display: none;
+}
+span.errormsg{
+    font-size: 12px;
+    color: #ed193b;
+    display: flex;
+    position: absolute;
+    bottom: -15px;
+    left: 2px;
+}
+textarea{
+    height:80px;
+}
+.form-group{
+    position:relative;
+    min-width: 200px;
+    margin-bottom:20px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8c9da9;
+}
+input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
+  color: #8c9da9;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder { 
+  color: #8c9da9;
+}
+input::placeholder, textarea::placeholder, select::placeholder{
+    color: #8c9da9;
+}
+
+
+.registerBtn0{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    color: #fff;
+    padding: 8px 40px;
+    border-radius: 100px;
+    background-color: #2bc275;
+}
+.registerBtn0:hover, .registerBtn0:focus, .registerBtn0:active{
+    color: #fff;
+}
+/*----------------------------End Form Css-------------------------*/
+/*---------------Start Checkbox Css-----------------*/
+
+.checck{
+    text-align:left;
+    clear:both;
+    margin-left: 13px;
+}
+
+input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]+label > a {
+    /*color: #00468e;*/
+    display: inline-block;
+    position:relative;
+}
+input[type="checkbox"]+label > a:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:2px;
+    /*background:#616161;*/
+}
+input[type="checkbox"]+label:before, input[type="checkbox"]+label:before {
+    border: solid 1px #bbb;
+    width: 15px;
+    height: 15px
+}
+input[type="checkbox"]+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+input[type="checkbox"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0)
+}
+input[type="checkbox"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+input[type="checkbox"]+label:after {
+    content: '';
+    width: 5px;
+    height: 10px;
+    border: solid #ea2341;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+input[type="checkbox"]:checked + label:before {
+  /*background: #333;*/
+  border-color: #ea2341;
+}
+input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    z-index: 2;
+}
+
+/*---------------End Checkbox Css-----------------*/
+
+
+/*---------------Start Video Popup Css-----------------*/
+.videogalry .background, .bkg {
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: #000000;
+    display: block;
+    top: 0;
+    position: fixed;
+    left: 0;
+    opacity: 0.8;
+}
+.videogalry .closePop {
+    float: right;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+}
+.videogalry .closePop img {
+    width: 22px;
+}
+.videogalry .popUp {
+    box-sizing: border-box;
+    top: 50%;
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.videogalry .videoContainer {
+    width: 715px;
+    height: auto;
+}
+.videogalry .loadingImg {
+    width: 100px;
+    height: 100px;
+}
+.videogalry .vidIframe {
+    width: 100%;
+    height: 410px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.videogalry .videoContainer p {
+    margin: 5px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+/*---------------End Video Popup Css-----------------*/
+.slick-dots li:only-child{
+    display:none;
+}
+
+/*---------------Start Right Icons Css-----------------*/
+.RightIconMain{
+    position: absolute;
+    top: -55px;
+    right: 20px;
+}
+.webSliderbtnMain{
+    position: absolute;
+    top: -140px;
+    right: 20px;
+}
+.rightIcons, .webSliderbtnMain .slick-arrow{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 0;
+    padding: 1px 6px;
+}
+.rightIcons span, .webSliderbtnMain .slick-arrow span {
+    display: inline-block;
+    background-size: 28px !important;
+    width: 28px;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+.rightPrev span, .webSliderbtnMain .slick-prev span {
+    background: url(https://economictimes.indiatimes.com/photo/93348396.cms) no-repeat;
+}
+
+.rightNext span, .webSliderbtnMain .slick-next span {
+    background: url(https://economictimes.indiatimes.com/photo/93348401.cms) no-repeat;
+}
+.webSliderbtnMain{
+    width:80px;
+}
+.webSliderbtnMain .slick-arrow{
+    position: static;
+    transform: none;
+    width: 40px;
+    height: 40px;
+}
+.tabContent .webSliderbtnMain{
+    display:none;
+}
+.tabContent.tabActive .webSliderbtnMain{
+    display:flex;
+}
+/*---------------End Right Icons Css-----------------*/
+
+/*------------------------------------------End Common Css------------------------------------------*/
+
+
+/*------------------------------------------Start Nav Css------------------------------------------*/
+.fixednav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.navbar{
+    padding: 20px 33px 0;
+    /*padding: 15px 50px;*/
+    /*background-color: transparent;*/
+    /*background-color: #041656;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*-webkit-transition: all 0.5s ease-out;*/
+    /*-moz-transition: all 0.5s ease-out;*/
+    /*-o-transition: all 0.5s ease-out;*/
+    /*transition: all 0.5s ease-out;*/
+    /*margin-bottom: 0;*/
+}
+/*.headermain {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    padding: 7px 23px;*/
+/*    border-radius: 5px;*/
+/*    -webkit-transition: background-color .5s ease-out;*/
+/*    -moz-transition: background-color .5s ease-out;*/
+/*    -o-transition: background-color .5s ease-out;*/
+/*    transition: background-color .5s ease-out;*/
+/*    margin-bottom: 0;*/
+/*}*/
+ .headermain {
+    /*padding: 12px 37px;*/
+    /*background-color: #000;*/
+    /*-moz-box-shadow: 0 15px 10px -15px rgba(0,0,0,0.1);*/
+    /*-webkit-box-shadow: 0 15px 10px -15px rgb(0 0 0 / 10%);*/
+    /*box-shadow: 0 15px 10px -15px rgb(0 0 0 / 10%);*/
+    /*z-index: 999;*/
+    /*border-radius: 10px;*/
+    /*-webkit-backdrop-filter: blur(42px);*/
+    /*backdrop-filter: blur(42px);*/
+    /*background-image: linear-gradient(92deg, rgba(255, 255, 255, 0.74) 1%, rgba(169, 169, 169, 0.35) 31%, rgba(103, 103, 103, 0) 103%);*/
+    
+    padding: 9px 20px;
+    background-image: url(https://economictimes.indiatimes.com/photo/101272077.cms);
+    width: calc(100% - 40px);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: 100%;
+}
+.fixednav.navbgwht .headermain {
+    background-color: #000;
+    border-radius: 12px;
+} 
+.menulogobox{
+    width: 130px;
+    -webkit-transition: width 0.5s ease-out;
+    -moz-transition: width 0.5s ease-out;
+    -o-transition: width 0.5s ease-out;
+    transition: width 0.5s ease-out;
+}
+.fixednav.sticky .menulogobox{
+    width: 200px;
+}
+
+.collesped_menu{
+    float:right;
+}
+
+.collesped_menu .navbar-nav li{
+    margin-right: 15px;
+}
+li.registerNow.noUnderline {
+    border: 2px solid #ED193B;
+    margin-left: 10px;
+}
+
+.collesped_menu .navbar-nav li:last-child{
+    margin-right: 0;
+}
+.collesped_menu .navbar-nav li a{
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+    padding: 4px 10px;
+    position: relative;
+    background: none;
+    display:block;
+    z-index: 2;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.collesped_menu .navbar-nav li.active a{
+    /*color: #fff;*/
+    /*background-color: #b18540;*/
+    /*border: 2px solid #b18540;*/
+}
+.collesped_menu .navbar-nav li,
+.collesped_menu .navbar-nav li::after {
+  -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.collesped_menu .navbar-nav li {
+  background: none;
+  display: block;
+  position: relative;
+}
+/*.collesped_menu .navbar-nav li::after {*/
+/*  background: #b6481e;*/
+/*  content: '';*/
+/*  position: absolute;*/
+/*  z-index: 1;*/
+/*}*/
+.registerNow {
+    background-color: #ED193B !important;
+    border-radius: 2px;
+}
+.registerNow a {
+    color: white !important;
+}
+.loginNow{
+    background-color: transparent;
+    border: 2px solid #d7a857;
+}
+.loginNow a{
+    color: #fff !important;
+}
+.collesped_menu .navbar-nav li .homeHeader {
+    padding: 5px 10px;
+    position: relative;
+    background: none;
+    display: block;
+    z-index: 2;
+    font-size: 20px;
+    color: black;
+} 
+.collesped_menu .navbar-nav li.noUnderline::after {
+  background: none;
+}
+.sponser {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid rgb(255 255 255 / 55%);
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.fixednav.sticky .sponser, .watchlivePg .sponser{
+    border: 1px solid rgb(0 0 0 / 55%);
+}
+.sponser svg {
+  position: absolute;
+  left: 0;
+  top: -7px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.sponser:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.sponser:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.scrollnavTo {
+    border: 1px solid transparent;
+}
+
+/*.collesped_menu .navbar-nav li::after {*/
+/*    height: 3px;*/
+/*    left: 0;*/
+/*    bottom: -10px;*/
+/*    transition-duration: 0.6s;*/
+/*    border-radius: 62px;*/
+/*    transform-origin: top left;*/
+/*    width: 0;*/
+/*}*/
+
+.collesped_menu .navbar-nav li.active:after, .collesped_menu .navbar-nav li:hover:after {
+  width: 100%;
+}
+.navbgwht > .navbar {
+    /*background-color: #000;*/
+    -moz-box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.1);
+    /*-webkit-box-shadow: 0px 15px 10px -15px rgb(0 0 0 / 10%);*/
+    /*box-shadow: 0px 15px 10px -15px rgb(0 0 0 / 10%);*/
+    z-index: 999;
+}
+/*------------------------------------------End Nav Css------------------------------------------*/
+
+/*------------------------------------------Start Banner Section Home page Css------------------------------------------*/
+.bannerSliderMain{
+    position:relative;
+}
+.bannerSec{
+    padding:0;
+}
+.bannerScreendivTwo {
+    max-width: 702px;
+    min-width: 702px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+} 
+.sldrimgBox > img{
+    height: 594px;
+}
+.sldrimgBox {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 81%, 0% 100%, 0% 50%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 81%, 0% 100%, 0% 50%);
+}
+.banerIcon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.4;
+}
+.banerIcon span {
+    display: inline-block;
+    background-size: 30px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+.banerPrev{
+    right: 8.6%;
+    top: 87%;
+    background-color: #041656;
+    z-index: 1;
+}
+.banerPrev span {
+    background: url(https://economictimes.indiatimes.com/photo/93705891.cms) no-repeat;
+    background-position: center;
+}
+.banerNext{
+    right: 0%;
+    top: 87%;
+    background-color: #041656;
+    z-index: 1;
+}
+.banerNext span {
+    background: url(https://economictimes.indiatimes.com/photo/93705893.cms) no-repeat;
+    background-position: center;
+}
+.bannerScreendiv {
+    max-width: 402px;
+    min-width: 402px;
+}
+.bannerScreendiv .bannerScreendivA {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #c3b9ff;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bannerScreendivA .bannerScreendivimg {
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+}
+.bannerscreenregisters > a {
+      color: #FFFFFF;
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 8px;
+    background-image: linear-gradient(102deg, #d7a857 0%, #b48233 129%);
+    padding: 10px 20px;
+    width: 230px;
+}
+.bannerscreenregister {
+    background-color: #ed193b;
+    border-radius: 2px;
+    width: 200px;
+    text-align: center;
+    padding: 9px 9px;
+}
+.BannerImageDate{
+    display: flex;
+    margin: 0 0 0  10px;
+    padding: 4px 0 4px 7px;
+    width: 320px;
+    /*background: linear-gradient(300deg, transparent 0, transparent 50px, #000000 0, #000000 100%);*/
+    background: linear-gradient(300deg, transparent 0, transparent 50px, #d1ae76, #b48431 18%);
+}
+.banenrImage {
+    width: 37px;
+    height: 37px;
+    margin-right: 6px;
+}
+p.bannerscreenPara {
+    font-size: 13px;
+    letter-spacing: 1.18px;
+    color: #fff;
+    line-height: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+p.bannerscreenDate {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bannerScreenHeading{
+   font-size: 22px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: auto;
+    color: white;
+    font-family: 'inter';
+    text-align: center;
+}
+.bannerScreenHeadingSpan > p{
+  font-size: 66px;
+  line-height: 0.8;
+  font-weight: bold;
+  color: #fff;
+}
+.bannerScreendiv {
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.bannerscreenregisters {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.bannerScreenHeadingSpan {
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+p.bannerscreenParanew {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+iframe#eventiframe {
+    width: 100%;
+    height: 600px;
+}
+/*------------------------------------------End Banner Section Home page Css------------------------------------------*/
+
+
+/*-------------------------- start agenda section in desktop ----------------------------------*/
+.agedaheader {
+    padding-top: 1px !important;
+}
+
+.agedaheader {
+    width: 100%;
+    height: 212px;
+    padding: 10rem 2rem;
+    background-color: #000;
+}
+.headersmal {
+    position: absolute;
+    left: 60px;
+    top: 120px;
+}
+.headersmal > h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+} 
+.breadcrum {
+    padding: 8px 20px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #fff;
+}
+.breadcrum ul li {
+    margin-right: 20px;
+    position: relative;
+}
+.breadcrum ul li a {
+    color: #727272;
+    font-size: 14px;
+    font-weight: normal;
+}
+.breadcrum ul li:after {
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: 8px;
+    background: url(https://economictimes.indiatimes.com/photo/78402321.cms) no-repeat;
+    width: 6px;
+    height: 8px;
+    background-size: 5px;
+}
+.breadcrum ul li:last-child a {
+    font-weight: 600;
+    color: #000;
+    cursor: default;
+}
+.breadcrum ul li:last-child:after{
+    content:none;
+}
+
+
+/*--------------------------End agenda section in desktop ----------------------------------*/
+
+/*------------------------------------ start partner section in desktop -------------------------*/
+.partner_logos {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.container1150 {
+    width: 1150px;
+    margin: 0 auto;
+}
+.inner_logosec .plogoft {
+    display: block;
+    max-width: 330px;
+    min-width: 330px;
+    float: unset;
+    margin: 0 auto;
+}
+.plogoftmain{
+    max-width: 250px;
+    min-width: 250px;
+    margin-right: 10px !important;
+}
+
+
+.logoContainer p, .plogoft p {
+    background-color: #f9f9f9;
+    padding: 7px 26px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.logoContainer {
+    text-align: center;
+    min-width: 700px;
+}
+
+
+
+
+
+.past_partner .partner a:nth-child(5n), .partner a:last-child {
+    /*margin: 0 22px;*/
+}
+.partner .ptnrimgbox img {
+    height: auto;
+    margin: auto;
+}
+.partner h4 {
+    margin: auto;
+    margin-bottom: 3px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #575757;
+}
+.prtnerwthoutRegform .partneraftrbner .partner {
+    max-width: 790px;
+}
+
+.partnersTopprev {
+    top: 0%;
+    z-index: 1;
+    right: 15%;
+    position: absolute;
+}
+.particonslider {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.4;
+}
+.partnersTopprev span, .winshowPrev span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+}
+.particonslider span {
+    display: inline-block;
+    background-size: 50px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+.partnersTopnext {
+    right: 8%;
+    top: -2%;
+    z-index: 1;
+    position: absolute;
+}
+.partnersTopnext span, .winshowNext span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+/*------------------------------------ End partner section in desktop -------------------------*/
+
+/*------------------------------------ Start awards categories section in desktop -------------------------*/
+
+p.categoriesPara {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+p.categoriesParap {
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.evaluationDiv {
+    background-color: #b18540;
+    border-radius: 2px;
+}
+p.categoriesHeading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+.containerDiv{
+    /*background-color: #fcf9f5;*/
+    /*padding: 20px 0 0px 0px;*/
+    /*border: 1px solid #000;*/
+}
+.reward-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.reward-sec {
+    margin-bottom: 30px;
+}
+.box-width {
+    position: relative;
+    padding: 36px 30px;
+    margin: 50px 0;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    max-width: 295px;
+    border-radius: 6px;
+    background-image: linear-gradient(290deg, #ffedd0 44%, #f9daa8 84%);
+}
+.box-width:nth-child(3n){
+    border-right:none;
+}
+/*.box-width:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: -25px;*/
+/*    width: 100%;*/
+/*    height: 1px;*/
+/*    background-color: #d8d8d8;*/
+/*}*/
+.box-width:nth-last-child(1):after, .box-width:nth-last-child(2):after, .box-width:nth-last-child(3):after{
+    content:none;
+}
+.reward-sec .imgbox {
+    height: 67px;
+    max-width: 76px;
+}
+.awardcategorieH3{
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+    width: 300px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.topinovative {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.topinovativepara {
+    padding-left: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.topinovativepara:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    border-right: 1px solid #000;
+    transform: translate(-103.7%, 0%);
+}
+.topinovativepartner {
+    width: 100px;
+    margin-top: -41px;
+}
+.topinovativepartner .topinovativepara {
+    font-size: 20px;
+    color: #000;
+    padding-left: 12px;
+}
+/*------------------------------------ End awards categories section in desktop -------------------------*/
+
+
+/*------------------------------------Start indbank section in desktop -------------------------*/
+.expbutton{
+    padding: 9px 0px 0px 4px;
+}
+.expbutton a{
+    color: #a93137;
+    font-size: 16px;
+    border: 1px solid #a93137;
+    padding: 5px 13px;
+    margin: 0px 0 0 13px;
+    border-radius: 7px;
+}
+.indbank img{
+    margin: 0 auto;
+    padding: 50px 0 30px 0px;
+    width: 445px
+}
+ul.awardcategoryUL.indbank > li:before{
+    background:none;
+}
+.rectangleDesign.indbank{
+    background:none;
+    padding: 4px 0 4px 14px;
+    margin-bottom:0px;
+}
+.awardBorderleft.indsbank.border {
+    border-left: 0px;
+}
+
+.awardBorderleft.indsbank.border img{
+    width: auto;
+    margin: inherit;
+    padding: 0px;
+    position: relative;
+    bottom: 11px;
+    margin-right: 16px;
+}
+.indbank.baner{
+    position:relative;
+}
+/*.faqs .panel-default>.panel-heading a.arrowTogle:before {*/
+/*    width: 3px;*/
+/*    height: 27px;*/
+/*    top: 6px;*/
+/*    left: 15px;*/
+/*    margin-left: -2px;*/
+/*    transform: rotate3d(0, 0, 1, 90deg);*/
+/*}*/
+/*.faqs .panel-default>.panel-heading a.collapsed.arrowTogle:after {*/
+/*    transform: rotate3d(0, 0, 1, 90deg);*/
+/*}*/
+/*.faqs .panel-default>.panel-heading a.arrowTogle:after {*/
+/*    width: 27px;*/
+/*    height: 3px;*/
+/*    top: 20px;*/
+/*    left: 1px;*/
+/*    margin-top: -2px;*/
+/*    transform: rotate3d(0, 0, 1, 180deg);*/
+/*}*/
+/*.faqs .panel-default>.panel-heading a:before, .faqs .panel-default>.panel-heading a:after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    transition: transform 0.25s ease-out;*/
+/*    background-color: #ed193b;*/
+/*}*/
+.faqs .panel-heading img{
+    float: left;
+    padding-right: 11px;
+    padding-top: 4px;
+}
+.exploreButton{
+    position: absolute;
+    bottom: 25px;
+    z-index: 99;
+    left: 142px;
+}
+.awardBorderleft.indsbank.border.box ul li{display: -webkit-inline-box;width:100%;}
+.awardBorderleft.indsbank.border.box ul li text{
+    font-weight:bold;
+}
+ul.awardcategoryUL.indbank li{
+    font-size:16px;
+}
+.firstawardCategory5 ul.awardcategoryUL.indbank {
+    list-style: decimal;
+    margin-left: 17px;
+}
+.rectangleDesign.indbank p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #707070;
+    margin-bottom:3px!important;
+    text-transform: capitalize;
+}
+.awardBorderleft.indsbank{
+    border-left: 2px solid #a93137;
+    border-bottom:0px;
+    margin-bottom:40px;
+    padding:0px;
+}
+ul.awardcategoryUL.indbank{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2c2c2c;
+    padding-left:15px;
+}
+.indbank.baner img{
+    width:unset;
+}
+.dp_awardCategory.indsbank{
+    background-color: #fcf9f5;
+}
+.panel.panel-default.inds{
+    max-width: 1160px;
+    min-width: 1160px;
+}
+.panel.panel-default.inds a{
+    font-size: 20px;
+    line-height: normal;
+}
+section.indsbackColor{
+    background-color: #fcf9f5;
+}
+.panel.panel-default.inds {
+    background: #fff;
+    margin: 0 0 40px 0px;
+    border-bottom: 0px!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+.firstawardCategory.inds p{
+    font-size: 16px!important;
+    line-height: 1.63!important;
+    margin-top: 0px!important;
+}
+.panel.panel-default.inds{
+    margin-bottom:40px!important;
+}
+.bankOn p{
+    font-size: 17px;
+    line-height: 1.56;
+    text-align: center;
+    max-width: 1086px;
+    margin: 0 auto; 
+}
+ .bankOn span{
+    color: #a93137;
+    font-weight:bold;
+ }
+ .bankOn{
+     margin-bottom:40px;
+ }
+ .faqs .panel-collapse.collapse.active{
+     display:block;
+ }
+/*------------------------------------End indbank section in desktop -------------------------*/
+
+/*------------------------------------Start Program phase section in desktop -------------------------*/
+
+
+.programPhaseContainer{
+    background-color: #ffedd0;
+    height: 300px;
+    padding: 25px;
+    text-align: center;
+     background-image: linear-gradient(259deg, #ffedd0 105%, #f9daa8 1%);
+         align-items: center;
+}
+.programPhaseleft{
+    min-width: 750px;
+    max-width: 750px;
+}
+.programPhaseHeading{
+    font-size: 36px;
+    color: #041555;
+}
+.programPhasePara{
+    font-size: 20px;
+    text-align: left;
+}
+.programPhaseBtn{
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-image: linear-gradient(102deg, #d7a857 0%, #b48233 129%);
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+a.programPbtn{
+    color: #000;
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+    padding: 8px 15px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}
+a.programPbtns {
+    padding: 10px 30px;
+    object-fit: contain;
+    border-radius: 5.3px;
+    background-image: linear-gradient(102deg, #d7a857 0%, #b48233 129%);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fffbfb;
+    display: flex;
+    align-items: center;
+}
+.programPhasebtn{
+    background-color: #FFFFFF;
+    border: 2px solid #b38330;
+    border-radius: 2px;
+    width: 180px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 #d2af77;
+}
+.programphasePara{
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*------------------------------------ End Program phase section in desktop -------------------------*/
+
+/*------------------------------------Start Speaker Slider CSS------------------------------------------------*/
+section.speakerSec {
+    background-color: #fffdfa;
+}
+.speakersSliderMain{
+    position:relative;
+    display: inline-block;
+    width: 100%;
+    max-height: 490px;
+    overflow: hidden;
+}
+.speakersSliderMain .slick-track{
+    margin:0;
+}
+.speakersSliderMain .item.slick-current{
+    min-width:441px;
+    max-width:441px;
+}
+.speakersSliderMain .itemBox{
+    position:relative;
+    min-width:163px;
+    max-width:163px;
+    min-height:489px;
+    max-height:489px;
+    border-radius: 8px;
+    overflow:hidden;
+    margin: 0 0 0 15px;
+    
+}
+
+.speakersSliderMain .itemBox:after{
+    content:'';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 42px;
+    background-color: #e1a84e;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+.speakersSliderMain .item.slick-current .itemBox{
+    min-width:441px;
+    max-width:441px;
+    margin: 0 auto;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+.speakersSliderMain .item.slick-current .itemBox:after{
+    width: 100%;
+    height: 10px;
+}
+.speakersSliderMain .itemDetailBox{
+    min-width:441px;
+    max-width:441px;
+}
+.speakersSliderMain .itemDetailBox:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    z-index: 1;
+    background: transparent;
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0,0,0, 0.65) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, transparent), color-stop(100%, rgba(0,0,0, 0.65)));
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0,0,0, 0.65) 100%);
+    background: -o-linear-gradient(top, transparent 0%, rgba(0,0,0, 0.65) 100%);
+    background: -ms-linear-gradient(top, transparent 0%, rgba(0,0,0, 0.65) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0, 0.65) 100%);
+}
+.speakersSliderMain .contentBox{
+    position: absolute;
+    bottom: 46.5%;
+    right: 0;
+    text-align: left;
+    width: 108%;
+    z-index: 2;
+    -webkit-transform: translate(14%, 0) rotate(-90deg);
+    -moz-transform: translate(14%, 0) rotate(-90deg);
+    -ms-transform: translate(14%, 0) rotate(-90deg);
+    -o-transform: translate(14%, 0) rotate(-90deg);
+    transform: translate(14%, 0) rotate(-90deg);
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+.speakersSliderMain .item.slick-current .contentBox{
+    bottom: 20px;
+    left:0;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: translate(0, 0) rotate(0deg);
+    -moz-transform: translate(0, 0) rotate(0deg);
+    -ms-transform: translate(0, 0) rotate(0deg);
+    -o-transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(0deg);
+}
+.speakersSliderMain .contentBox h2{
+    font-size: 31.7px;
+    font-weight: bold;
+    font-stretch: condensed;
+    color: #fff;
+    margin: 0 0 5px;
+}
+
+.speakersSliderMain .contentBox p{
+    display:none;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-stretch: condensed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.speakersSliderMain .item.slick-current .contentBox p{
+    display:block;
+}
+.speakersSliderIcons{
+    width:100%;
+}
+.sliderIcons{
+    position: absolute;
+    top: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 0;
+    padding: 1px 6px;
+}
+.speakersSliderPrev{
+    left:0;
+}
+.speakersSliderNext{
+    right:0;
+}
+
+.speakersSliderPrev span{
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+}
+.speakersSliderNext span{
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    transform: rotate(180deg);
+}
+
+
+/*------------------------------------End Speaker Slider CSS------------------------------------------------*/
+
+
+
+/*------------------------------------ Start Program jury section in desktop -------------------------*/
+.jdp_colmn.jitem {
+    width: 244px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+h3.pjSpeaker {
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center; 
+    margin: auto;
+    margin-top: 14px;
+    padding:0 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p.pjDesignation {
+    font-size: 14px;
+    font-stretch: condensed;
+    text-align: center;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p.pjDesignationa {
+    font-size: 14px;
+    font-stretch: condensed;
+    text-align: center;
+    color: #9b9b9b;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.programJuSlider .jdp_colmn:nth-child(1), .programJuSlider .jdp_colmn:nth-child(3), .programJuSlider .jdp_colmn:nth-child(5) {
+    /*margin-top: 100px;*/
+     position: relative;
+}
+.programJuSlider .jdp_colmn:nth-child(7), .programJuSlider .jdp_colmn:nth-child(9), .programJuSlider .jdp_colmn:nth-child(11){
+    position: relative;
+    top: -100px;
+}
+ .jdp_colmn_v1.jitem_v1 {
+    z-index: 1;
+    width: 215px;
+    border: 0px solid #fff;
+    box-shadow: 0 0 20px 0 #eee;
+    margin: 0 30px 10px 10px;
+    vertical-align: top;
+}
+.pjurySpeakers {
+    width: 100%;
+}
+.container1100 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.jurybanslider {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.4;
+}
+.jurybanslider span {
+    display: inline-block;
+    background-size: 50px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+.juryPrev{
+    top: 50%;
+    z-index: 1;
+    left: 2%;
+}
+.juryPrev span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+}
+.juryNext{
+    right: 3%;
+    top: 50%;
+    z-index: 1;
+}
+.juryNext span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+/*------------------------------------ End Program jury  section in desktop -------------------------*/
+
+
+/*------------------------------------ start PARTNER ASSOCIATIONS section in desktop -------------------------*/
+.container {
+    width: 1170px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cntcusdetails {
+    text-align: center;
+    margin: 0 0 40px;
+}
+.partnerAssociAm{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.partnerItema:last-child {
+    display: grid;
+    margin: 0 auto;
+    grid-column: 3;
+}
+.partner.space.dp_row.dp_flexflow a {
+    margin-bottom: 20px !important;
+    cursor: default;
+}
+.past_partner .partnerAssociations  a {
+    max-width: 220px;
+    margin-right: 24px;
+}
+
+.past_partner .partner .ptnrimgbox {
+    min-height: 155px;
+    margin: 0;
+}
+.past_partner .partner .ptnrimgbox img {
+    max-height: 130px;
+    max-width: 130px;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+.ptnrimgboxAsso {
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 196px;
+    height: 102px;
+    box-shadow: 0 2px 9px 2px rgba(0, 0, 0, 0.06);
+    margin-bottom: 13px;
+}
+.ptnrimgboxAssoa > img {
+    width: 70px;
+    margin: auto;
+}
+.ptnrimgboxAsso > img {
+    width: 70px;
+    margin: auto;
+    /*height: 54px;*/
+}
+.partnerAssociations{
+    justify-content: center;
+}
+.past_partner .partnerAssociations  a:nth-child(5n) {
+    /*margin-right: 0px !important;*/
+}
+.containerAssopart {
+    width: 1100px !important;
+}
+.vidPrev {
+    top: 50%;
+    z-index: 1;
+    left: -4%;
+}
+.headerbanslider span {
+    display: inline-block;
+    background-size: 50px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+.vidPrev span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+    z-index: 999;
+}
+.vidNext {
+    right: -4%;
+    top: 50%;
+    z-index: 1;
+}
+.vidNext span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+.headerbanslider span {
+    display: inline-block;
+    background-size: 50px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+h4.pastassH4 {
+    width: 195px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+/*------------------------------------ END PARTNER ASSOCIATIONS section in desktop -------------------------*/
+
+
+
+/**-----------------css video pop-------------------**/
+.videogalry .videoContainer {
+    width: 629px;
+    height: 355px;
+}
+.videogalry .background,.bkg {width: 100%;height: 100%;z-index: 999999;background: #fff;display: block;top: 0;position: fixed;left: 0;opacity: 0.9;}
+.videogalry .closePop{
+    cursor: pointer;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videogalry .closePop img{width:22px;}
+.videogalry .popupQuery{width: 400px;}
+.videogalry .popUp{     padding: 30px 50px;  background: #fff;box-shadow: 0 2px 10px 0 rgba(186, 186, 186, 0.5);box-sizing: border-box; top: 50%; position: fixed; z-index: 999999; left: 50%; transform: translate(-50%, -50%);}
+.videogalry .videoContainer{width:640px;height:auto;}
+.videogalry .juryPopContainer{width:900px;height:400px;padding: 10px;}
+.videogalry .loadingImg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 140px;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+.videogalry .vidIframe{width:100%;height:400px;margin-bottom:10px;position:relative;}
+.videogalry .artIframe{width:100%;height:380px;position:relative;/*background:#fff;*/overflow: scroll;}
+.videogalry .galleryContainer{width:1100px;height:520px;padding: 10px;}
+.videogalry .galleryframe{width:100%;height:490px;position:relative;}
+.videogalry .videoContainer p{font-size:17px;}
+.videogalry .form-group{margin-bottom:25px;}
+.videogalry .popupQuery h2 {font-size: 22px; margin-bottom: 20px;text-align: center;}
+.videogalry .queryRequest textarea {height: 80px;font-size:14px;}
+.videogalry .referother {width: 600px;}
+.videogalry a.addrefer {float: right;font-size: 14px;margin-top: 10px;}
+.videogalry .referee_box.flw {height: 182px;overflow-y: auto; padding-right: 20px;-webkit-overflow-scrolling: touch;}
+.videogalry .referee.queryRequest.flw {overflow: hidden;}
+.videogalry .tncContainer{width:400px;padding:15px;text-align:center;}
+.videogalry .message a.taketest {
+    margin-top: 20px;
+    display: inline-block;
+}
+.imgiconbox{
+    position:relative;
+}
+img.imagicon.centretopleft{
+    width:60px;
+}
+.glimeseSec .videobox p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.videogalry .popUp {
+    background: #fff;
+    box-sizing: border-box;
+    top: 50%;
+    position: fixed;
+    z-index: 999999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.spl_pOuter:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+}
+.videogalry2 .imgiconbox .imagicon {
+    max-width: 43px;
+}
+
+.videogalry .background, .bkg {
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: #222222;
+    display: block;
+    top: 0;
+    position: fixed;
+    left: 0;
+    opacity: 0.97;
+}
+.videogalry .closePop {
+    float: right;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+}
+.videogalry2 .imgshow{
+    position:relative;
+}
+.videogalry p {
+    font-weight: 600;
+    line-height: 1.33;
+    text-align: left;
+    padding-top:8px;
+}
+.contrslide-prev{
+    left:-50px;
+}
+.contrslide-next{
+    right:-50px;
+}
+
+
+/*----------------End video popup section--------------*/
+
+/*------------------------------------------Start Videos Css--------------------------------------------*/
+.videoSec{
+    background-color: #f8f8f8;
+}
+.videomultislick{
+    display:none;
+}
+.videomultislick.slick-initialized{
+    display:block;
+}
+.videoMainBox{
+    position:relative;
+}
+.singleVideoBox{
+    width: 1200px;
+    height: 680px;
+    margin: 0 auto;
+}
+.singleVideoBox iframe{
+    width:100%;
+    height:100%;
+}
+.videosmultiSliderMain{
+    max-width: 1000px;
+    min-width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: 70%;
+}
+.sliderIconsMain .slick-arrow {
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    text-indent: -9999px;
+}
+.sliderIconsMain button.slick-prev {
+    position: absolute;
+    top: 28%;
+    left: -8%;
+}
+.sliderIconsMain button.slick-next {
+        position: absolute;
+    top: 20%;
+    transform: rotate(180deg) translate(0px, 8px);
+    right: -8%;
+}
+
+.multiVideoBox {
+    margin: 0 20px 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    box-shadow: 5px 4px 25px 0 rgba(0, 0, 0, 0.1);
+}
+.multiVideoBox p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px;
+    min-height: 91px;;
+}
+.multiVideoimg {
+    position: relative;
+}
+.videoIcons {
+    margin: 60px 0 0 50px;
+    padding-bottom: 50px;
+}
+
+/*------------------------------------------End Videos Css--------------------------------------------*/
+
+
+/*----------------------------------------- start agenda section Desktop ---------------------------------*/
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+}
+.event_dp .container-fluid ul li a {
+    margin: 22px 0;
+    padding: 10px 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c2c2c;
+}
+.event_dp .container-fluid ul li {
+    padding: 15px 0px;
+}
+
+
+.event_dp .container-fluid .newAgendadesign ul.newAgendUl li a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6b6b6b;
+    margin: 22px 0;
+    padding: 10px 30px;
+}
+.event_dp .container-fluid .newAgendadesign ul.newAgendUl li {
+    padding: 15px 0px;
+}
+.agendaArrowtabs > li.active a {
+    font-weight: bold;
+}
+.event_dp .container-fluidfi .nav-tabsfi > li.active > a{
+     background-color: #6a23e0;
+     color: white;
+ }
+.event_dp .container-fluid .three-tabs{
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.event_dp .container-fluid .one-tabs{
+    box-shadow: 0 12px 24px 0 rgb(0 0 0 / 8%);
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+}
+.three-tabs {
+     margin-bottom: 39px !important;
+}
+
+.event_dp .container-fluidfi .nav-tabsfi{
+     box-shadow: none;
+     margin-bottom: 29px;
+}
+.event_dp .container-fluidfi .nav-tabsfi > li > a {
+    padding: 2px 40px 3px;
+    border-radius: 2px;
+    border: solid 1px #6a23e0;
+    color: #6a23e0;
+    margin-right: 20px;
+}
+.nav-tabs1{
+    display: flex;
+    box-shadow: none !important;
+}
+.event_dp .container-fluid ul li.active {
+    position: relative;
+}
+.event_dp .container-fluid ul li.active > a {
+    padding: 10px 15px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 2px;
+    background-image: linear-gradient(100deg, #d7a857 0%, #b48233 129%);
+}
+.event_dp .container-fluid .newAgendadesign ul.newAgendUl li.active > a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    object-fit: contain;
+    border-radius: 8px;
+    background-image: linear-gradient(121deg, #ffedd0 1%, #f9daa8 64%);
+    padding: 10px 30px;
+}
+.pastsecMain {
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 27px 0 rgb(0 0 0 / 17%);
+    width: 1090px;
+    margin: 0px auto;
+}
+
+.wrkscol.pastsesvd {
+    margin: 20px 0 0 20px;
+}
+.datetimemainbox.dp_row {
+    font-size: 20px;
+    color: #041656;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.datetmbox.dp_row.aligncenter {
+    margin-right: 10px;
+}
+h3.agendaHead {
+    margin: 0px 0px 20px 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    color: #242020;
+}
+.pastseskeypnt h3.pastsesrgthead {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b3832f;
+    text-transform: uppercase;
+}
+.keypointMain > ul {
+    list-style: disc !important;
+    margin-left: 20px;
+}
+.keypointMain > ul > li {
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    color: #000;
+}
+h3.pastsesrgthead {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b3832f;
+    text-transform: uppercase;
+}
+.btnAgenda{
+  font-size: 20px;
+  font-stretch: condensed;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.registerBtnAgenda {
+    width: 120px;
+    padding: 9px 9px;
+    margin: 20px 0;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #d7b889 2%, #b38330);
+}
+.panelspkrslider {
+    flex-wrap: wrap;
+    margin-left: 15px;
+    /*justify-content: center*/
+}
+.pastsesspkr.speakerLeft {
+    max-width: 310px;
+    min-width: 310px;
+    height: 480px;
+    background: url(https://economictimes.indiatimes.com/photo/96735524.cms) no-repeat;
+    background-size: cover;
+    /*height: 100%;*/
+    /*background-color: #000;*/
+}
+.wrkscolbgrnd {
+    background-color: #000;
+}
+.panelspkritem {
+    margin: 10px 10px;
+    max-width: 120px;
+    min-width: 120px;
+}
+.spkrboxpastses {
+    width: 90px;
+    height: 90px;
+}
+.spkrboxpastses img {
+    border-radius: 10px;
+}
+.spkrdetpastses > h4{
+    margin: 5px 0 5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+.spkrdetpastses .spkrdetpastsesPost{
+    margin: 5px 0 0;
+    font-size: 11.5px;
+    line-height: 1.17;
+    color: #fff;
+    
+}
+.spkrdetpastses .spkrdetpastsesComp{
+    margin: 5px 0 0;
+    font-size: 10px;
+    line-height: 1.17;
+    color: #fff;
+}
+.speakerLeft > .pastsesrgthead {
+    font-size: 20px;
+    color: white;
+    padding-left: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+/*------------------------------------- End Agenda section for Desktop --------------------------------------*/
+
+
+
+
+
+/*----------------------------------------------- start gallery section for desktop ----------------------*/
+#gallery .gallery-container {
+	width: 100%;
+	margin: 40px auto 0;
+	position: relative;
+	z-index: 9;
+}
+
+#gallery .gallery-container .item img {
+	width: 100%;
+}
+
+#gallery .slick-slide {
+	height: auto !important;
+}
+
+#gallery .slick-nav {
+    position: absolute;
+    top: 48%;
+    background-color: #fff !important;
+    padding: 28px 23px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 2px #333333;
+    z-index: 9;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+#gallery .slick-nav.slick-next {
+	right: 0%;
+	border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#gallery .slick-nav.slick-prev {
+	left: 0;
+	border-left: none;
+    border-radius: 0 5px 5px 0;
+    background-position: -10px -142px;
+}
+.galeryHomeCont #gallery-slick .item a.fancy {
+    max-height: 255px;
+    overflow: hidden;
+    display: block;
+}
+.galleryEventCoverg18-19 #gallery-slick .item a.fancy{max-height: 255px; overflow: hidden;  display: block;}
+#swipebox-next {
+    background-position: -88px 5px !important;}
+#swipebox-prev {
+    background-position: -40px 4px !important;}    
+
+.gallery_sec .titles{
+    font-size:34px;
+}
+.galleryMain{
+	margin: 40px 0 0;
+}
+.galleryMain .owl-item .item a{
+	display: block;
+	width: 100%;
+	margin: 2px 0;
+	max-height: 225px;
+    overflow: hidden;
+}
+.galleryMain button.slidebtn{
+    width: 70px;
+    height: 70px;
+    /*opacity: 0.7;*/
+	position: absolute;
+	top: 49.5%;
+	right:9%!important;
+	border-radius:50px!important;
+	z-index: 9;
+	-webkit-transform: translate(0, -50%);
+	-moz-transform:    translate(0, -50%);
+	-ms-transform:     translate(0, -50%);
+	-o-transform:      translate(0, -50%);
+	transform:         translate(0, -50%);
+
+}
+.galleryMain button.slick-prev{
+    top: 50.6%;
+	left: 9%;
+	border-left: none;
+	border-radius: 0 5px 5px 0;
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100% !important;
+    text-indent: -9999px;
+}
+.galleryMain button.slick-prev span, .vediobtn.video-prev span{
+	background-position: -10px -142px !important;
+	
+}
+.galleryMain button.slick-next{
+    top: 40.6%;
+	right: 0;
+    border-right: none;
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100% !important;
+    text-indent: -9999px;
+    transform: rotate(180deg);
+}
+.gallery_sec .slick-slide > div{
+    display: flex;
+    margin: 2px 1px;   
+}
+.gallery_sec .slick-slide > div .item{
+    max-height: 208px;
+    overflow: hidden;
+}
+.gallery_sec .slick-slide > div .item a{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.photocaption{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 233, 226,0.95);
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.275s ease-in-out, visibility 0s 0.275s;
+    transition: all 0.275s ease-in-out, visibility 0s 0.275s;
+    visibility: hidden;
+    will-change: transform;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    padding: 20px 30px;
+}
+.gallery_sec .slick-slide > div .item a:hover .photocaption{
+    -webkit-transform: none;
+      transform: none;
+    visibility: visible;
+    -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+}
+.photocaption p{
+    font-family: 'Faustina', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.fancybox-thumbs__list a{
+    max-width:100%;
+    min-height: 120px;
+    min-width: 160px;
+}
+.fancybox-thumbs__list a:before {
+    border: 4px solid #c51531;
+}
+
+
+
+.slider-vertical .slick-prev:before, .slider-vertical .slick-next:before {
+	display: none;
+}
+.slider-vertical .slick-prev, .slider-vertical .slick-next {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin: 10px;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+    cursor: pointer;
+}
+.slider-vertical .slick-prev::after, .slider-vertical .slick-next::after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: -2px;
+    background: url(https://economictimes.indiatimes.com/photo/78293871.cms) no-repeat;
+    background-size: 800px;
+    width: 22px;
+    height: 15px;
+    background-position: 0 -214px;
+    
+}
+.slider-vertical .slick-prev::after{
+    background-position: -30px -214px;
+}
+.slider-vertical .slick-next::after{
+  top:-28px!important;
+}
+.slider-vertical .slick-prev {
+    top: 12px;
+}
+.slider-vertical .slick-next {
+    bottom: -12px;
+    top: auto;
+}	
+.slider-vertical .slick-prev.slick-disabled, .slider-vertical .slick-next.slick-disabled {
+	opacity: 0.1;
+	cursor: default;
+}
+.slider-vertical{
+  margin-top:20px;
+  position:relative;
+  max-width:450px;
+  margin-left:20px;
+}
+/*-------------------------------------------- End Gallery section for desktop --------------------------*/
+
+
+/*-------------------------------------  Start Still have question section for Desktop --------------------------------------*/
+section.stillhaveQues {
+    background-color: #fffdfa;
+    padding: 20px 0;
+}
+p.stillhaveQuespara {
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+}
+.stillhaveQuesImg  {
+    background-image: url(https://economictimes.indiatimes.com/photo/93616682.cms), url(https://economictimes.indiatimes.com/photo/93616662.cms);
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    background-size: 220px;
+}
+.titleQues{
+    font-size: 46px;
+}
+.containerQues {
+    width: 815px;
+    margin: 0 auto;
+}
+
+
+
+/*------------------------------------- End Still have question section for Desktop --------------------------------------*/
+
+
+/*-----------------------start get in touch -----------------------------*/
+.getTouch{
+    position:relative;
+}
+.cntctitle{
+  color: #161B21;
+  font-family: Oswald;
+  font-size: 67px;
+  letter-spacing: -1.47px;
+  line-height: 111px;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+}
+.getintouchpara{
+    color: #161B21;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 13px;
+}
+.cntdetailsbox{
+    background-color: #fffdfa;
+    box-shadow: 0 12px 14px 0 rgb(0 0 0 / 10%);
+    max-width: 400px;
+    min-width: 400px;
+    height: 174px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.getinimage{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.cntdetailsboxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagediv{
+    position: relative;
+    top: -24px;
+    left: 7px;
+}
+.generalmanager{
+  color: #161B21;
+  font-size: 15px;
+  margin: auto;
+}
+
+.names .managerName{
+    font-size: 24px;
+    margin: 0;
+}
+.cntdetailsboxsec{
+    position: relative;
+    top: -0;
+    left: 25px;
+}
+.spriteimg.moblie {
+    width: 26px;
+    height: 21px;
+    background-position: -123px -541px;
+}
+.cntdetailsbox a {
+    font-size: 15px;
+    margin-left: 7px;
+    color: #161B21;
+}
+.stillhaveQuespara p {
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #2c2c2c;
+    margin-bottom: 30px;
+}
+/*-----------------------End get in touch -----------------------------*/
+
+
+/*------------------------------------------Start Footer Css--------------------------------------------*/
+
+.dpfooter {
+  float: left;  
+  width: 100%;
+  margin-top: 30px;
+}
+
+.dpfooter .topband {
+  background-color: #191919;
+  padding: 20px;
+}
+
+.dpfooter .mainBand {
+  background-color: #000;
+}
+
+.belowBand {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.belowBand h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.belowBand .contact {
+  padding-top: 10px;
+}
+
+.footLinks {
+  width: 30%;
+}
+
+.footLinks a {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #fff;
+  padding-bottom: 15px;
+  display: inline-block;
+  width: 35%;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.mainfollow,
+.newsletter {
+  width: 340px;
+}
+
+.follow a {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.belowBand .contact {
+  padding-top: 10px;
+}
+
+.belowBand .contact h3 {
+  margin-bottom: 10px;
+}
+
+.belowBand .contact .inner {
+  margin-bottom: 5px;
+}
+
+.belowBand .contact {
+  padding-top: 10px;
+}
+
+.info {
+  margin-left: 8px;
+}
+
+.belowBand .info a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  width: 125px;
+  display: inline-block;
+}
+
+.emailNews {
+  background: #373737;
+  border: 1px solid #373737;
+  outline: none;
+  color: #fff!important;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.newsletter .subcribebtn {
+  background: #ed193b;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  border: 1px solid #ed193b;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+
+.succsesMsg {
+  display: none;
+}
+
+.succsesMsg p {
+  text-align: left;
+  line-height: 28px;
+  margin-top: 25px;
+  color: #ed193b;
+  font-weight: 600;
+}
+
+.bottombar {
+  background: #000;
+  padding: 23px 5px 5px;
+  border-top: 1px solid #3a3a3a;
+}
+
+.bottombar ul {
+  justify-content: center;
+  list-style: none;
+}
+
+.bottombar ul li {
+  margin-right: 15px;
+}
+
+.bottombar ul li:last-child {
+  margin-right: 0;
+}
+
+.bottombar ul a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  padding-left: 26px;
+  font-family: Montserrat;
+}
+
+.bottombar ul li a::before {
+  content: '';
+  position: absolute;
+  border-right: 1px solid #9b9b9b;
+  height: 100%;
+  width: 4px;
+  left: 5px;
+}
+
+.bottombar ul li:first-child a::before {
+  content: none;
+}
+
+.cpy {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 8px;
+  font-family: 'Montserrat';
+}
+
+.cpy a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: 'Montserrat';
+}
+
+
+/*------------------------------------------End Footer Css--------------------------------------------*/
+
+
+/*------------------------------------------- Start inner page css for msmeawards 2022 ------------------------------*/
+
+
+ /*- ---------------------------start Agenda inner section for desktop  -------------------*/
+
+.event_dp .container-fluid .one-tabs{
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.12);
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+ }
+.event_dp .container-fluidfi .nav-tabsfi{
+    box-shadow: none;
+    margin-bottom: 29px;
+}
+ .event_dp .container-fluidfi .nav-tabsfi > li > a {
+    padding: 2px 40px 3px;
+    border-radius: 2px;
+    border: solid 1px #6a23e0;
+    color: #6a23e0;
+    margin-right: 20px;
+}
+.nav-tabs1{
+    display: flex;
+    box-shadow: none !important;
+}
+.agendaboxmain .scheduleBox {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.12);
+    width: 830px;
+    margin: 30px auto;
+    padding: 0px 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #041454, #9eb0f8) 0 0 0 1;
+    border-radius: 6px;
+} 
+.tabagenda .agendawid{
+    width: 830px;
+    margin: 0px auto;
+    padding: 0px 40px;
+    border-left: 3px solid #F9F7FF;
+}
+.innerdetails {
+    position: relative;
+}
+.innerdetails h4:before {
+    content: '';
+    position: absolute;
+    left: -80px;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    transform: rotate(90deg);
+    box-shadow: 0 2.5px 28.3px -1px rgba(95, 83, 123, 0.1);
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 4px;
+    border-image-source: linear-gradient(to bottom, #041454, #9eb0f8);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #fff, #fff), linear-gradient(to bottom, #041454, #9eb0f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}  
+.timesecagnda  h3 {
+    font-size: 22px;
+    line-height: 24px;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.peoplesec.popcntMain{
+    padding-left: 10px;
+}
+.innerdetails > h3{
+    font-size: 18px;
+    margin: auto;
+    padding: 10px 0;
+    font-weight: normal;
+    color: #041454;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.innerdetails h4 {
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+ .innerdetails > p{
+    color: #000000;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 15px 0 5px 0;
+}
+.peoplesec h3{
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+.peoplesec .popdeg{
+    color: #717171;
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.peoplesec .popdegA{
+    color: #717171;
+    font-size: 12px;
+    font-weight: normal;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.agendaspkrbox {
+    margin-bottom: 30px;
+    margin-right: 15px;
+    align-items: end;
+}
+p.marginUpper {
+    margin-top: -10px;
+}
+.peopleimgbox img{
+    margin-right: 10px;
+}
+.agendaarrowTab {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.agendaArrowtabs{
+    margin-bottom: 0px !important;
+}
+.event_dp .container-fluid .agendaArrowtabs {
+    margin: 0px 10px !important;
+}
+/*---------------------------------------------------- End agenda inner section for desktop  ---------------*/
+
+
+/*- ---------------------------start program phase inner section for desktop  -------------------*/
+.phaseProgramDivmain {
+    position: relative;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv {
+    min-width: 271px;
+    max-width: 271px;
+    height: 290px;
+    border-radius: 3px;
+    background-color: #fff7f4;
+    margin: 10px 20px;
+    padding: 0 20px 20px 20px;
+}
+.phaseProgramDivmain:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 14px solid #ffe9e2;
+    border-bottom: 9px solid transparent;
+    position: absolute;
+    top: 62%;
+    right: 2%;
+}
+.phaseProgramDivbefore{
+    position: relative;
+}
+.phaseProgramDivmain.active >.phaseProgramDiv1 > .phaseProgramDiv.active:after, .phaseProgramDiv:after{
+    content: '';
+    border-right: 3px solid #ffe9e2;
+    display: block;
+    height: 76%;
+    position: absolute;
+    top: 12%;
+    right: 0%;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv1 > .phaseProgramDivbefore.active:before {
+    content: '';
+    background: #fff;
+    color: #000;
+    border: 4px solid #041454;
+}
+/*.phaseProgramDivbefore.active:before {*/
+/*    content: '';*/
+/*    background: #fff;*/
+/*    color: #000;*/
+/*    border: 4px solid #041454;*/
+/*}*/
+.phaseProgramDivbefore:before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f6f6f6;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+    border: 4px solid #858585;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv1 > .phaseProgramDivbefore.active:after {
+    background: linear-gradient(to right, #a4b6ff 0%, #02145a 60%);
+    width: 100%;
+    left: 0%;
+}
+.phaseProgramDivbefore:after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f6f6f6;
+    position: absolute;
+    left: -50%;
+    top: 19px;
+    z-index: -1;
+} 
+.phaseProgramDivmain:last-child:after {
+    content: '';
+    width: 50%;
+    height: 4px;
+    background: #f6f6f6;
+    position: absolute;
+    left: 50%;
+    top: 73px;
+    z-index: -1;
+}
+.phaseProgramImg {
+    padding-top: 20px;
+}
+.phaseProgramDiv1 {
+    margin-bottom: 40px;
+}
+.phaseProgram {
+    display: flex;
+}
+/*.phaseProgramDiv.active{*/
+/*    min-width: 271px;*/
+/*    max-width: 271px;*/
+/*    height: 290px;*/
+/*    border-radius: 3px;*/
+/*    background-color: #fff7f4;*/
+/*    margin: 10px 20px;*/
+/*    padding: 0 20px 20px 20px;*/
+/*}*/
+.phaseProgramDiv{
+    min-width: 271px;
+    max-width: 271px;
+    height: 290px;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    margin: 10px 20px;
+    padding: 0 20px 20px 20px;
+    position: relative;
+}
+.phaseProgramDivmain.active >  .phaseProgramDiv.active:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #fff7f4;
+    position: relative;
+    top: -14%;
+    left: 105px;
+}
+.phaseProgram .phaseProgramDiv:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid #f8f8f8;
+    position: relative;
+    top: -14%;
+    left: 105px;
+}
+p.ppphase1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+p.ppphasedate {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+h3.phaseProgramDivH3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.phaseProgramDivmain:last-child .phaseProgramDivH3 {
+    padding-bottom: 24px;
+}
+.phaseProgramDivpara > p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.programphaseRegister > a {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+.programphaseRegister {
+    background-color: #ed193b;
+    border-radius: 2px;
+    width: 130px;
+    padding: 9px 9px;
+    text-align: center;
+}
+.phaseProgramVenu{
+    font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #b67a10;
+}
+.phaseProgramDivmain:last-child:before {
+    content: none;
+}
+.phaseProgramDivmain:last-child .phaseProgramDiv:after{
+    border-right: 0px;
+}
+.phaseProgramImg {
+    min-width: 73px;
+    max-width: 73px;
+    max-height: 73px;
+    min-height: 73px;
+    border-radius: 50%;
+    background-color: #ffe9e2;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*- -------------------------  End program phase inner section for desktop  -------------------*/
+
+
+/*---------------------------------- start partner show section --------------------------*/
+.aboutptnr_content {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.partnershowpage .aboutptnr_content .aboutlogo {
+    margin: 0 60px 16px 0;
+}
+.aboutptnr_content .aboutlogo {
+    float: left;
+    max-width: 250px;
+    margin: 0 20px 16px 0;
+}
+.parnercntent .Normal, .aboutptnr_content p {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.aboutptnr_content a {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.36;
+    color: #ff0031;
+}
+.partnershowpage ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+.partnershowpage iframe.youtubeVideo {
+    margin: 0 auto;
+    display: flex;
+} 
+.partnershowpage figure > img {
+    margin: 0 auto;
+    width: 650px;
+}
+.containerace {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 20px 0px;
+}
+.parshopara {
+    margin-bottom: 20px;
+}
+.parshdiv {
+    max-width: 244px;
+    min-width: 244px;
+    margin-right: 20px;
+}
+.parshdiv > img {
+    margin: 0 auto;
+}
+.container1000 {
+    width: 1000px;
+    /*margin-left: 100px;*/
+}
+.containerace .parshdiv:nth-child(2){
+    margin-top: 30px;
+}
+.containerace .parshdiv:nth-child(3){
+    margin-top: 75px;
+}
+.containerace .parshdiv:nth-child(4){
+    margin-top: 55px;
+    margin-right: 0px;
+}
+.aboutptnr_contentnet .aboutlogo img {
+    display: none;
+}
+.partnershowpage .aboutptnr_contentnet .aboutlogo {
+    margin: 0px;
+}
+.container1100 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container1200{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.aboutptnr_contentnet {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.h2.titleasd {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.aboutptnr_contentnet .parnercntentent div.Normal {
+    /*font-weight: bold;*/
+}
+h3.parshoparah3 {
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+div[data-title="Custom"] {
+    text-align: center;
+    font-weight:bold;
+}
+.partner_slide{
+    margin-right: 50px;
+}
+.partnerfounderh2 {
+    text-align: center;
+    font-size: 35px;
+}
+.founderimg > img {
+    margin: 0 auto;
+    border-radius: 50%;
+}
+h3.titlefounder {
+    padding-left: 40px;
+    margin: auto;
+}
+.discusbox {
+    width: 350px;
+    background-color: #f8f8f8;
+    height: 275px;
+    padding: 20px 0px;
+}
+.discusbox ul {
+    list-style: disc;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+.founderimg {
+    margin-bottom: 20px;
+}
+
+/*---------------------------------- End partner show section ---------------------*/
+
+/*---------------------------------- start Tanle Section --------------------------*/
+#tableContainer {
+    width: 90%;
+    margin: auto;
+  }
+  
+  #dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #dataTable thead th {
+    background-color: #041555;
+    color: #fff;
+    /*border: 1px solid #ccc;*/
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  #dataTable tbody td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .paginationBtn {
+    justify-content: end;
+    margin-bottom: 20px;
+  }
+  
+  .paginationBtn button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .paginationBtn button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  
+  #pageInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+    }
+.current {
+  font-weight: bold;
+}
+.page-number {
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #041555;
+    width: 24px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.page-number:hover {
+  text-decoration: underline;
+  color: #000;
+  background-color: #fff;
+}
+.page-number.current {
+    background-color: #b18540;
+}
+/*--------------------------------------- End Tanle Section ---------------------------------*/
+
+/*------------------------------------- Start award categories inner section for desktop --------*/
+.award_dp .container-fluiddp ul li a {
+    color: #000000;
+    padding: 5px 20px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #041454;
+    margin-right: 25px;
+}
+.awardCatagoriesdp > li > a {
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.award_dp .container-fluiddp ul li.active > a {
+    background-color: #041454;
+    color: white;
+}
+h3.firstAwardHeadng {
+    font-size: 34.3px;
+    font-weight: bold;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3.firstAwardHeadngh3 {
+    width: 1028px;
+    margin-left: 0 !important;
+}
+h3.firstAwardHeadngh4 {
+    width: 1000px;
+    margin-left: 0 !important;
+}
+p.firstAwardpara {
+    font-size: 20px;
+    color: #2c2c2c;
+    width: 1056px;
+}
+.firstawardCategory {
+    margin-right: 50px;
+}
+.rectangleDesign {
+    margin: 0px 0 20px 0px;
+    padding: 4px 0 4px 7px;
+    /*width: 270px;*/
+    background: linear-gradient(240deg, transparent 0, transparent 50px, #041454 0, #041454 100%);
+}
+.designWho {
+    width: 240px;
+}
+.designCreteria {
+    width: 170px;
+}
+.designDocument {
+    width: 270px;
+}
+.designQuest {
+    width: 300px;
+}
+.rectangleDesign > p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.awardcategoryUL > li {
+    font-size: 18px;
+    padding-bottom : 10px;
+}
+.firstawardCategory2 {
+    width: 500px;
+    margin-right: 50px;
+}
+.firstawardCategory3 {
+    width: 500px;
+    margin-right: 50px;
+}
+.firstawardCategory4 {
+    margin-top: 50px;
+}
+.awardBorderleft {
+    border-left: 1px solid #041454;
+    border-bottom: 1px solid #041454;
+    padding: 0 0 20px 0;
+}
+.awardcategoryUL {
+    padding-left: 20px;
+}
+.awardcategoryUL > li {
+    position: relative;
+}
+.awardcategoryUL > li:before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 1px;
+    background-color: #041454;
+    top: 17%;
+    left: -4.1%;
+}
+.singleawardc > li:before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 1px;
+    background-color: #041454;
+    top: 9%;
+    left: -4.1%;
+}
+#awardCategoryfirst{
+    background-color: #fcf9f5;
+    border-bottom-right-radius: 60px;
+}
+section#awardCategories {
+    position: relative;
+}
+/*section#awardCategories:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background-color: #fcf9f5;*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*    z-index: -1;*/
+/*}*/
+section#awardCategory{
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    background-color: white;
+}
+#awardCategoryfirst:after {
+    content: '';
+    position: absolute;
+    background-color: #fcf9f5;
+    width: 100%;
+    height: 14%;
+    bottom: -14%;
+}
+.firstawardCategory4 > .awardBorderleft > .awardcategoryUL > li {
+    position: relative;
+}
+.firstawardCategory4 > .awardBorderleft > .awardcategoryUL > li:before {
+    content: '';
+    position: absolute;
+    width: 1%;
+    height: 1px;
+    background-color: #041454;
+    top: 23%;
+    left: -1.6%;
+}
+
+/*-------------------------------------- End award categories inner section for desktop ----------------------*/
+
+
+/*------------------------------------------Start Faqs page Css------------------------------------------*/
+.faqs {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.faqs .panel-group .panel {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 5px 0;
+}
+.faqs .panel-group .panel:last-child {
+	margin-bottom: 0px;
+}
+.faqs .panel-heading {
+	padding: 0;
+	background: transparent;
+	border: none;
+	text-align: left;
+}
+.faqs .panel-title>a {
+	display: block;
+	font-size: 24px;
+	line-height: 1.43;
+	color: #000000;
+	padding: 0 50px 0 0;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+}
+.faqs .panel-default>.panel-heading a:after {
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: 11px;
+	width: 11px;
+	height: 11px;
+	border-top: solid 2px #4a2c8b;
+	border-right: solid 2px #4a2c8b;
+	transition: transform .25s linear;
+	-webkit-transition: -webkit-transform .25s linear;
+}
+.faqs .panel-default>.panel-heading a.collapsed.arrowTogle:after {
+	content: " ";
+	-webkit-transform: rotate(136deg);
+	-moz-transform: rotate(136deg);
+	-ms-transform: rotate(136deg);
+	-o-transform: rotate(136deg);
+	transform: rotate(136deg);
+}
+.faqs .panel-default>.panel-heading a.arrowTogle:after {
+	-webkit-transform: rotate(313deg);
+	-moz-transform: rotate(313deg);
+	-ms-transform: rotate(313deg);
+	-o-transform: rotate(313deg);
+	transform: rotate(313deg);
+}
+.faqs .panel-group .panel-heading+.panel-collapse .panel-body {
+	border-top: none;
+	padding: 0;
+}
+.faqs .panel-collapse.collapse{display:none;overflow:hidden;}
+.faqs .panel-body p {
+	font-size: 20px;
+	line-height: 1.3;
+	margin: 7px 0 20px;
+	font-weight: normal;
+	text-align: left;
+	color: #2c2c2c;
+}
+.faqs .panel-body p a {
+	color: #ff0031;
+}
+.dpfaqsmain .maincntbox p {
+    padding: 0 50px;
+    color: #2c2c2c;
+    font-size: 18px;
+}
+.dpfaqsmain .maincntbox {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.faq h1{
+    text-transform: none;
+}
+.panel.panel-default {
+    max-width: 550px;
+    min-width: 550px;
+    margin-right: 50px;
+}
+.faqsTitle {
+	max-width: 988px;
+	margin: 0 auto;
+}
+.wd100{
+    width: 100%;
+}
+.displayflex {
+    display: flex;
+    justify-content: center;
+}
+/*#faqsSec {*/
+/*    background: linear-gradient(183deg, transparent 0, transparent 162px, #fcf9f5 0, #fcf9f5 100%);*/
+/*}*/
+#faqsSec {
+    background: #fcf9f5;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: relative;
+}
+#faqsSec:before {
+    content: '';
+    position: absolute;
+    background: #fcf9f5;
+    width: 100%;
+    height: 14%;
+    top: -14%;
+    z-index: -2;
+}
+/*------------------------------------------End Faqs page Css------------------------------------------*/
+.Normal h4 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+.Normal h5 {
+    font-size: 23px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.Normal h6 {
+    font-size: 20px;
+    margin: 25px 0 5px;
+}
+#partner_94049654 figure > img {
+    width: 450px;
+}
+/*------------------------------------------- End inner page css for msmeawards 2022 ------------------------------*/
+
+/*-------------------------- start nomination section ---------------------------------------------------*/
+.nominationsAward .event_dp .container-fluid ul li.active  {
+    border-radius: 2px;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+}
+.nominationsAward .event_dp .container-fluid ul li.navAct  {
+    border-radius: 2px;
+    background-color: #b18540;
+    background-image: linear-gradient(180deg, #D2AF78 0%, #B3832F 100%);
+}
+.nominationsAward .event_dp .container-fluid ul li.navAct > a {
+    color: white;
+    font-weight: bold;
+}
+.nominationsAward .event_dp .container-fluid ul li.nomination-list, .nominationsAward .event_dp .container-fluid ul li.nominationMainDivLi >a   {
+    color: #000000;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid #D2AF78;
+    margin: 0 10px;
+    font-weight: bold; 
+}
+.event_dp .container-fluid ul li.nomination-list > a {
+    border-radius: 2px;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+}
+.event_dp .container-fluid ul li.nomination-list > a {
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.event_dp .container-fluid ul li.nomination-list.active > a {
+    /*border-radius: 2px;*/
+    /*background-color: transparent;*/
+    /*color: white;*/
+    /*font-weight: bold;*/
+}
+.nominationsAward .event_dp .container-fluid .nominationsNav ul li  {
+    border: none; 
+}
+.nominationsAward .event_dp .container-fluid .nominationsNav ul li.active > a  {
+    border-radius: 2px;
+    background-color: transparent;
+    background-image: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #d2af78;
+}
+.nominationsAward .event_dp .container-fluid .nominationsNav ul li > a {
+    color: #545454;
+    padding: 5px 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    margin: 0 10px;
+    font-weight: normal;
+}
+.nominationMainDivUl .nominationMainDivLi {
+    width: 325px;
+    height: 88px;
+    position: relative;
+    /*background: url(https://economictimes.indiatimes.com/photo/97952091.cms) no-repeat;*/
+    margin: 10px 25px;
+}
+.nominationMainDivUl .nominationMainDivLi:before {
+    content: '';
+    position: absolute;
+    background: url(https://economictimes.indiatimes.com/photo/97948820.cms) no-repeat;
+    width: 43px;
+    height: 65px;
+    background-size: 43px;
+    left: 5px;
+    top: 13px;
+}
+.nominationMainDivUl .nominationMainDivLi:after {
+    content: '';
+    position: absolute;
+    background: url(https://economictimes.indiatimes.com/photo/97948920.cms) no-repeat;
+    width: 43px;
+    height: 65px;
+    background-size: 43px;
+    right: 5px;
+    top: 13px;
+}
+.nominationMainDivUl .nominationMainDivLi .companyNameDiv {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.nominationMainDivUl {
+    /*height: 250px;    */
+    background: url(https://economictimes.indiatimes.com/photo/98003326.cms) no-repeat;
+    background-size: cover;
+    padding: 10px 70px;
+    border-radius:10px;
+}
+.nomination-list.active {
+    /*display: block !important;*/
+}
+.nomination-list {
+    /*display: none;*/
+}
+.nomination-list.activeNomin {
+    /*display: block !important;*/
+}
+.mainNominationSlider {
+    position: relative;
+}
+.nominationSliderPrev span {
+    transform: rotate(180deg);
+}
+.nominationsliderIcons span {
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/97951029.cms) no-repeat;
+    background-size: 28px;
+    text-indent: -9999px;
+    padding: 10px 15px;
+}
+.nominationSliderPrev, .nominationSliderNext {
+    background-color: transparent;
+    border: none;
+}
+.nominationMainSlider {
+    /*width: 1200px;*/
+    /*margin: 0 auto;*/
+}
+.nominationSliderIcons {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+button.nominationSliderNext {
+    right: -30px;
+    position: absolute;
+    top: 9px;
+}
+button.nominationSliderPrev {
+    position: absolute;
+    top: 9px;
+    left: -30px;
+}
+.event_dp .container-fluid .nominationsNav .three-tabs {
+    height: auto;
+}
+/*-------------------------- end nomination section -------------------------------------------------------*/
+
+/*---------------------------- start winner section for dsktop ---------------------------------------------*/
+
+section.msmeWinners {
+    background-image: url("https://economictimes.indiatimes.com/photo/98294791.cms");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.winnerCompanyDiv {
+    background-image: url("https://economictimes.indiatimes.com/photo/98294778.cms");
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 371px;
+    margin: 0 25px;
+    position: inherit;
+}
+.winnerCompanyName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.28;
+    text-align: center;
+    padding: 15px 60px;
+    position: relative;
+}
+.winnerCompanyName:before {
+    content: '';
+    position: absolute;
+    background-color: #070709;
+    padding: 9px;
+    width: 86%;
+    top: -18px;
+    left: 23px;
+}
+p.winnerMicoPra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    width: 280px;
+    height: 70px;
+    margin: 0 auto;
+}
+.winnerSecH3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
+    position: relative;
+}
+h3.winnerSecH3:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid #fff;
+    top: 17px;
+    left: 0px;
+}
+span.winnerSecSpan {
+    padding: 0 25px;
+    background-color: #18191b;
+    position: relative;
+}
+.winnerOneDiv, .winnerSliderDiv, .winnerMainRect {
+    position: relative;
+}
+.winnerOneDiv:before {
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 75%;
+    height: 100%;
+    padding: 90px;
+    left: 49px;
+    top: -30px;
+}
+.winnerThreeDiv .winnerMainRect:before {
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 75%;
+    height: 100%;
+    padding: 90px;
+    left: 49px;
+    top: -30px;
+}
+.winnerSliderDiv:before {
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 70%;
+    height: 100%;
+    padding: 84px;
+    left: 49px;
+    top: -30px;
+}
+img.winnerBackgImg {
+    position: relative;
+    padding-top: 15px;
+    border-color: transparent;
+    background-color: transparent;
+    background-image: transparent;
+    left: 25px;
+    background-color: #151618;
+}
+h2.titleWinner {
+    border-image-slice: 1;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    color: #fff;
+    margin: auto;
+}
+.winnerPara {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
+}
+.winnerOneDivMargin {
+    margin-top: 100px;
+}
+.specialWinnerPara {
+    width: 290px;
+    position: relative;
+}
+.specialWinnerParaCom{
+    width: 240px;
+    position: relative;
+    left: 45%;
+    transform: translate(-50%, 0%);
+}
+.msmeWinnerSec {
+    background-image: url(https://economictimes.indiatimes.com/photo/98294791.cms);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.msmeWinnerTitle {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+.winnerSliderDiv {
+    margin: 70px 0;
+}
+.container1360{
+    max-width: 1348px;
+    min-width: 1348px;
+    margin: 0 auto;
+}
+p.besCsrIndian{
+    padding-bottom: 44px !important;
+}
+.winnerCompOneName {
+    padding: 27px 60px;
+}
+.winnerFourChild {
+    max-width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.msmeWinnerDotsWeb {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.msmeWinnerDotsWeb ul.slick-dots {
+    position: static;
+}
+.msmeWinnerDotsWeb .slick-dots li, .msmeWinnerDotsWeb .slick-dots li button {
+    height: 5px;
+    width: 5px;
+    position: relative;
+    left: -1px;
+    bottom: 0;
+}
+.msmeWinnerDotsWeb .slick-dots li button:before {
+    line-height: 5px;
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+}
+.msmeWinnerDotsWeb .slick-dots li button:before {
+    background: #fff;
+}
+.msmeWinnerDotsWeb .slick-dots li.slick-active, .msmeWinnerDots .slick-dots li.slick-active button {
+    width: 25px;
+}
+.msmeWinnerDotsWeb .slick-dots li.slick-active button:before {
+    width: 25px;
+    border-radius: 20px;
+    background: #b18540 !important;
+    opacity: 1;
+}
+
+/*------------------------ end winner section for desktop ---------------------------------------------------*/
+
+/*------------------------------------------Start Media Section Css------------------------------------------*/
+.videosMain{
+    background-color: #fffdfa;
+}
+.videosMainSlider{
+    position:relative;
+    overflow: hidden;
+}
+.videosMainSlider .slick-slider {
+    margin-left: -12%;
+    margin-right: -12%;
+}
+
+.videosMainSlider .slick-list {
+    padding-top: 85px !important;
+    padding-bottom: 50px !important;
+    padding-left: 15%!important;
+    padding-right: 15%!important;
+}
+
+
+.videosMainSlider .slick-track {
+    max-width: 100%!important;
+    transform: translate3d(0, 0, 0)!important;
+    perspective: 100px;
+}
+
+.videosMainSlider .slick-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    width: 100%!important;
+    transform: translate3d(0, 0, 0);
+    transition: transform 1s, opacity 1s;
+}
+
+.videosMainSlider .slick-current {
+    opacity: 1;
+    position: relative;
+    display: block;
+    transform: translate3d(0, 0, 20px);
+    z-index: 2;
+}
+.videosMainSlider .slick-sprev{
+    opacity: 1;
+    transform: translate3d(-70%, 0, 0px);
+}
+.videosMainSlider .slick-snext{
+    opacity: 1;
+    transform: translate3d(70%, 0, 0px);
+    z-index: 1;
+}
+.videosMainSlider .threeboxs{
+    max-width:60%;
+    margin: 0 auto;
+}
+.videosMainSlider .slick-current .threeboxs{
+    max-width:60%;
+}
+
+.knowNext span, .vidNext span {
+    right: 0;
+    transform: rotate(180deg);
+}
+.headerbanslider {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.vdsldriconsdiv .slick-arrow{
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 53px;
+    background-size: 100% !important;
+    text-indent: -9999px;
+}
+.vdsldriconsdiv .slick-prev{
+    left:20px;
+    top: 38%;
+}
+.vdsldriconsdiv .slick-next{
+    right: 10px;
+    top: 41%;
+    transform: rotate(180deg);
+}
+.vdImgBox{
+    position:relative;
+}
+.vidPop{
+    max-width: 57px;
+    transition: all .5s ease;
+}
+.videosSlider .items.justbeforecurrent .vidPop, .videosSlider .items.justaftercurrent .vidPop{
+    max-width: 45px;
+}
+.vdCntntBox h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.44px;
+}
+.vdCntntBoxC{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.44px;
+    margin: 15px 0 0;
+}
+.videosSlider .items .vdCntntBox{
+    display:none;
+}
+.videosSlider .items.slick-current .vdCntntBox{
+    display:block;
+}
+
+.tab {
+  overflow: hidden;
+}
+.futuretabs {
+  display: none;
+}
+
+.activef {
+  display: block;
+}
+.tabs .tab {
+     display: none;
+}
+ .tabs .tab.active {
+     display: block;
+}
+.futuretabs {
+  display: none;
+}
+.activef {
+  display: block;
+}
+.gds-nav-tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.gds-nav-tabs li.activef {
+    position: relative;
+}
+.gds-nav-tabs > li > a {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2px 10px 3px;
+    border-radius: 2px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c2c2c;
+}
+.gds-nav-tabs  li > a.activef {
+    background-color: #b18540;
+    color: white;
+}
+/*-----------------------------End Media section --------------------------*/
+
+
+/*-------------------- start articles inner section for desktop ------------------------------------------*/
+
+section#article:before {
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    width: 100%;
+    height: 454px;
+    z-index: -1;
+    top: 160px;
+}
+.artImg.articlepage {
+    width: 536px;
+    display: -webkit-inline-box;
+    margin-bottom: 41px;
+    border: 4px solid #fff;
+}
+.fstArtMain {
+    margin-top: 30px;
+}
+.articleMain.pages .fstArtMain .articleBox {
+    max-width: 530px;
+}
+.fstArtMain .articleBox {
+    max-width: 987px;
+    margin-bottom: 60px;
+    box-shadow: none;
+}
+.articleBox {
+    /*border: 4px solid #fff;*/
+}
+.fstArtMain .articleBox .artCnt {
+    padding-left: 36px;
+}
+.articleBox .artCnt {
+    padding: 15px 0px 30px;
+}
+.fstArtMain .articleBox .artCnt p {
+    font-family: 'Faustina', serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.1;
+    max-width: 820px;
+    min-width: 524px;
+    margin: 0;
+    min-height: unset;
+    color: #000;
+    padding-top: 5px;
+}
+.fstArtMain .articleBox .artCnt p.logistics {
+    font-size: 12px;
+    font-weight: 500;
+    color: #727272;
+    font-family: 'Montserrat', sans-serif;
+}
+.fstArtMain .articleBox .artCnt .articleDescrPara {
+    font-size: 16px;
+    line-height: 1.19;
+    color: #1b1b1b;
+    font-family: 'Faustina', sans-serif;
+    padding-top: 10px;
+}
+.fstArtMain .articleBox .artCnt p.timeParaHours {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #727272;
+}
+.mainParaDesc {
+    position: relative;
+}
+.aligncenter.artCnt {
+    position: absolute;
+    top: 17%;
+}
+.articleMainSlider {
+    position: relative;
+}
+.articlesIconsDiv {
+    position: absolute;
+    width: auto;
+    line-height: 0;
+    top: 82%;
+    right: 44%;
+}
+.articleDots {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 100%;
+    right: -5%;
+}
+button.articlePrev {
+    position: relative;
+    left: 0px;
+    top: 5px;
+}
+button.articleNext {
+    position: relative;
+    left: 17px;
+}
+
+.articlePrev span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+}
+.articleSameIcons span {
+    display: inline-block;
+    background-size: 50px !important;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+}
+.articleSameIcons {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.4;
+}
+.articleNext span {
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+a.articleBoxsSec.pagess {
+    /*max-width: 276px;*/
+    /*border: 4px solid #fff;*/
+    /*padding: 0px 0px 10px;*/
+    max-width: 276px;
+    border: 4px solid #fff;
+    padding: 0px 0px 10px;
+    margin: 0px 32px 0 0px;
+}
+a.articleBoxsSec.pagess:nth-child(4n){
+    margin: 0px !important;
+}
+.artCnts p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.15;
+    font-family: 'Faustina', sans-serif;
+    color: #000;
+    padding-top: 5px;
+}
+.articleDots .slick-dots li button:before {
+    font-size: 6px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    background: transparent;
+    border: 2px solid #b78837;
+    border-radius: 50%;
+}
+.articleDots .slick-dots li.slick-active button:before {
+    opacity: .75;
+    background: #b78837;
+}
+.articleSecDiv {
+    margin-top: -70px;
+}
+.articleMainSec {
+    box-shadow: 7px 7px 14px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 375px;
+    margin: 0 20px;
+    border-radius: 0 0 0 25px;
+}
+.articleHeadingPara {
+    height: 202px;
+    overflow-y: scroll;
+    margin: 20px;
+}
+h2.articleMainHeading {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: #000;
+    margin: auto;
+    padding-bottom: 15px;
+}
+p.articleMainPara {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #636363;
+}
+.articleImgMainDiv img {
+    border-radius: 0 0 0 25px;
+}
+.articleMainSec ::-webkit-scrollbar, .articleHeadingParaa ::-webkit-scrollbar {
+  width: 5px;
+}
+.articleMainSec ::-webkit-scrollbar-thumb, .articleHeadingParaa ::-webkit-scrollbar-thumb {
+  background: #c3c3c3; 
+  border-radius: 10px;
+}
+
+.articleMainSec::-webkit-scrollbar-track, .articleHeadingParaa::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 9px rgba(0,0,0, 1.0);
+	border-radius: 10px;
+	background-color: #000;
+}
+.articleMainSec::-webkit-scrollbar-thumb, .articleHeadingParaa::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 9px rgba(0,0,0, 1.0);
+	background-color: #000;
+}
+.articleLoadBtnDiv {
+    margin-top: 30px;
+}
+a.articleLoadBtn {
+    border-radius: 8px;
+    background-image: linear-gradient(102deg, #d7a857 0%, #b48233 129%);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fffbfb;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span.whiteArrowIconSpan {
+    padding-left: 5px;
+}
+.articleImgMainDiv {
+    position: relative;
+}
+.articleImgMainDiv:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    left: 20%;
+    transform: translate(-20%, 0px);
+}
+/*------------------ end articles inner section for desktop ----------------------------------------------*/
+
+/*---------------------- Start Agend section for desktop ------------------------------------------------*/
+.newAgendadesign {
+    display: flex;
+    justify-content: space-between;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: -50px 21px 74px 0 rgba(0, 0, 0, 0.03);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(to bottom, #ffedd0 0%, #ffedd0);
+    border-image-slice: 1;
+    background-image: linear-gradient(to bottom, #fff, #fff), linear-gradient(to bottom, #ffedd0 0%, #ffedd0);
+    background-origin: border-box;
+    /*background-clip: content-box, border-box;*/
+    width: 100%;
+    padding: 20px 0;
+}
+.newAgendadesign .newAgendUl {
+    display: block;
+}
+.newAgendadesign .tabbabletab {
+    min-width: 300px;
+    position: relative;
+}
+.newAgendadesign .tabMainSecDiv {
+    width: calc(100% - 330px);
+}
+.newAgendadesign .tabbabletab:before {  
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #fff 0%, #e9c17c 52%, rgba(179, 131, 47, 0) 100%);
+}
+.event_dp .container-fluid ul.awardCatagoriesdp li a {
+     font-family: 'Roboto', sans-serif; 
+}
+.event_dp .container-fluid ul.awardCatagoriesdp li.active > a {
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 2px;
+    background-image: linear-gradient(100deg, #d7a857 0%, #b48233 129%);
+}
+section.cntacdetailsec {
+    background-color: #fffdfa;
+}
+.pdngtb40 {
+    padding: 40px 0;
+}
+h2.cntctitle {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #161b21;
+    margin: auto;
+}
+.cntacdetailsecmain>p {
+    font-size: 18px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #303030;
+    margin: auto;
+    padding-bottom: 5px;
+}
+.txtEmail {
+    margin-right: 10px;
+}
+.email>a {
+    color: red;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.singleVideoMain {
+    padding-bottom: 200px;
+}
+
+/*-------------------- End Agenda section for desktop ----------------------------------------------------*/
+
+
+/*---------------------- start new Video section in css ---------------------------------------------------*/
+
+.singleVideoBoxNew {
+    width: 770px;
+    height: 502px;
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
+.singleVideoBoxNew iframe.vidIframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.videoMainBoxNew {
+    display: flex;
+}
+.multiVideoItemsNew {
+    /*display: contents !important;*/
+}
+.multiVideoimgNew {
+    min-width: 170px;
+    max-width: 170px;
+    height: 100px;
+    margin-right: 15px;
+    position: relative;
+}
+.multiVideoimgNewPara {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #000;
+}
+p.singleVideoBoxNewPara {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #000;
+    padding-top: 10px;
+}
+.multiVideoBoxNew {
+    padding-bottom: 30px;
+    min-width: 450px;
+    max-width: 450px;
+}
+.videosmultiSliderMainNew {
+    min-width: calc(100% - 800px);
+    position: relative;
+}
+/*.multiVideoItemsNew.slick-current .multiVideoimgNew {*/
+/*    border: 2px solid #14a9f3;*/
+/*}*/
+.multiVideoItemsNew.slick-current .multiVideoimgNew img{
+    border: 2px solid #14a9f3;
+}
+
+.slider-vertical button.slick-prev, .slider-vertical button.slick-prev:hover, .slider-vertical button.slick-prev:active, .slider-vertical button.slick-prev:focus {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #f7f7f7;
+    display: block;
+    width: 100%;
+    padding: 17px 0;
+}
+.slider-vertical button.slick-next, .slider-vertical button.slick-next:hover, .slider-vertical button.slick-next:active, .slider-vertical button.slick-next:focus {
+    position: relative;
+    top: 26px;
+    left: 0;
+    background: #f7f7f7;
+    display: block;
+    width: 100%;
+    padding: 17px 0;
+}
+.slider-vertical .slick-prev::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 7px;
+    background: url(https://economictimes.indiatimes.com/photo/78293871.cms) no-repeat;
+    background-size: 800px;
+    width: 22px;
+    height: 15px;
+    background-position: 0 -214px;
+    transform: rotate(180deg);
+}
+.slider-vertical .slick-next::after {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 10px !important;
+    background: url(https://economictimes.indiatimes.com/photo/78293871.cms) no-repeat;
+    background-size: 800px;
+    width: 22px;
+    height: 15px;
+    background-position: 0 -214px;
+}
+
+/*-------------------- end new Video section in css --------------------------------------------------------*/
+
+.arrowBtnSpan {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 6px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d7a857 ;
+    -webkit-animation: button-top 2s ease-in-out infinite alternate;
+    animation: button-top 2s ease-in-out infinite alternate;
+}
+/*@keyframes button-top {*/
+/*  0% {*/
+/*    transform: translateY(-6px);*/
+/*  }*/
+/*  100% {*/
+/*    transform: translateY(6px);*/
+/*  }*/
+/*}*/
+.arrowDivRegister {
+    position: absolute;
+    right: 250px;
+    top: 1px;
+}
+.arrowDivRegister a.regHoverBtnMain {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 0px;
+    object-fit: contain;
+    background: #d7a857;
+    border: 2px solid #d7a857;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    position: fixed;
+}
+.arrowDivRegister a.regHoverBtnMain:hover {
+    color: #d7a857 !important;
+    background-color: transparent;
+    text-shadow: none;
+}
+.arrowDivRegister a.regHoverBtnMain:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+.arrowDivRegister a.regHoverBtnMain:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #fff;
+    background: #fff;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+img.playIcon {
+    border: none !important;
+}
+
+/*------------------------------------------- Start past edition page -----------------------------------*/
+
+h2.pastAboutHeading {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 12px;
+    text-shadow: 2px -3px 0px rgba(218,138,62,0.6);
+}
+p.pastAboutPara {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.pastBannerRegister > a {
+    object-fit: contain;
+    border-radius: 8px;
+    background-image: linear-gradient(102deg,#d7a857 0,#b48233 129%);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #fffbfb;
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.pastBannerRegister {
+    padding-top: 30px;
+}
+.container1144 {
+    max-width: 1144px;
+    margin: 0 auto;
+}
+section.msmePastWinners {
+    background-color: #070709;
+}
+.pdngtb60 {
+    padding: 60px 0;
+}
+.viewMoreitemPast > a {
+    object-fit: contain;
+    border-radius: 8px;
+    background-image: linear-gradient(102deg,#d7a857 0,#b48233 129%);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #fffbfb;
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+section.facilationPast {
+    background-color: #070709;
+}
+h2.titlePast {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.facilationNavTab .facilationNav li.active a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #bf8e3f;
+}
+.juryPanelPast .facilationNavTab .facilationNav li.active a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.facilationNavTab .facilationNav li a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #979797;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.facilationNavTab .facilationNav li.active {
+    position: relative;
+    padding-bottom: 3px;
+}
+.facilationNavTab .facilationNav li.active:before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    height: 2px;
+    background-image: linear-gradient(to right,#fbf19e 5%,#f5ca6f 33%,#f8e793 73%,#dcaf4b 96%);
+    top: 100%;
+}
+.pastsingleVideoBoxNew {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 626px;
+    border: 1px solid #f5ca6f;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.pastsingleVideoBoxNew iframe.vidIframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+section.juryPanelPast {
+    position: relative;
+    overflow: hidden;
+    background-color: #070709;
+}
+.juryPanelCard {
+    position: relative;
+    overflow: hidden;
+    width: 386px;
+    height: 422px;
+    border-radius: 14.8px;
+    border: solid 0.9px #4f4f4f;
+    background-color: #232323;
+    margin: 10px 19px;
+}
+.juryPanelImgDiv, .juryPanelSec {
+  transition: transform 0.3s ease; 
+}
+
+.juryPanelCard:hover .juryPanelImgDiv {
+  transform: scale(1.2);
+}
+.juryPanelCard:hover .juryPanelSec {
+  /*transform: scale(0.9);*/
+  transform: translateY(10px);
+}
+.juryPastPanelMain {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+h3.juryPanelName {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: -0.42px;
+    color: #fff;
+    margin: 0;
+    padding-bottom: 10px;
+}
+p.juryPanelFounder {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.72;
+    color: #fff;
+}
+.juryPanelSec {
+    padding: 25px 0 0 30px;
+}
+.juryPanelImgDiv {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.juryPanelImgDiv > img {
+    border-radius: 0px 0px 8px 0px;
+}
+.pastEditionHeaderImg {
+    background: url(https://economictimes.indiatimes.com/photo/101991448.cms);
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.pastEditionHeaderImg .fixednav {
+    position: sticky;
+}
+.pastEditionHeaderImg .fixednav.navbgwht {
+    position: fixed;
+}
+.pastEditionHeaderImg .breadcrum {
+    padding: 8px 20px;
+    border-bottom: 1px solid #cdcdcd;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.pastEditionHeaderImg .breadcrum ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+.pastEditionHeaderImg .breadcrum ul li:last-child a {
+    color: #fff;
+}
+.pastEditionHeaderImg .breadcrum ul li:after {
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: 8px;
+    background: url(https://economictimes.indiatimes.com/photo/100706518.cms) no-repeat;
+    width: 6px;
+    height: 8px;
+    background-size: 5px;
+}
+.pastEditionHeaderImg .breadcrum ul li:last-child:after{
+    content:none;
+}
+section.pastEdetionAttend {
+    position: relative;
+    overflow: hidden;
+}
+section.pastEdetionAttend:before {
+    content: '';
+    position: absolute;
+    background-image: url(https://economictimes.indiatimes.com/photo/101991322.cms);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.pastEditionNum > p {
+    margin: 0;
+    padding-top: 25px;
+    background-image: linear-gradient(to right, #fbf19e 5%, #f5ca6f 33%, #f8e793 73%, #dcaf4b 96%);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+p.pastEditPara {
+    background-image: linear-gradient(to right, #fbf19e 5%, #f5ca6f 33%, #f8e793 73%, #dcaf4b 96%);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+    text-align: center;
+}
+.pastEditionAttend {
+    width: 200px;
+}
+.pastEditionImgDiv {
+    height: 50px;
+}
+.pastEditionAttend .pastEditionImg {
+    margin: 0 auto;
+    max-width: 54px;
+    max-height: 54px;
+}
+.outerImgDiv {
+  width: 115px;
+  height: 115px;
+  background: url('https://economictimes.indiatimes.com/photo/102130434.cms') no-repeat;
+  background-size: cover;
+  animation: rotate 10s linear infinite;
+  position: relative; 
+}
+.innerImgDiv {
+    width: 37px;
+    height: 37px;
+    background: url(https://economictimes.indiatimes.com/photo/101991129.cms) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.rotateImgDiv {
+    margin-right: 100px;
+    position: relative;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.supportAssociations {
+    padding-top: 30px;
+}
+h2.title.titlePrevPartner {
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+    text-shadow: 2px -3px 0 #fff;
+}
+.juryIconsdiv {
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, 0px);
+    width: auto;
+    height: 29px;
+    margin: 60px 0 0 0;
+}
+.mainJuryPanel {
+    position: relative;
+}
+.juryIconsdiv button.slick-next {
+    position: static;
+    border-right: 0;
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 70px !important;
+    text-indent: -9999px;
+    transform: translate(0px , -8px) rotate(180deg);
+}
+.juryPanelDots {
+    position: static;
+    display: inline-block;
+    width: auto;
+    top: 16px;
+    right: 33px;
+    margin: 0 10px;
+    line-height: 0;
+}
+.juryIconsdiv button.slick-prev {
+    position: static;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+    background: url(https://economictimes.indiatimes.com/photo/94096452.cms) no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 70px !important;
+    text-indent: -9999px;
+    transform: unset;
+}
+.juryPanelDots .slick-dots {
+    position: static;
+}
+.juryPanelDots .slick-dots li button:before {
+    font-size: 6px;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    background: #fff;
+    border-radius: 50%;
+}
+.juryPanelDots .slick-dots li.slick-active button:before {
+    opacity: .75;
+    background: #d7a857;
+}
+.dpfooterOther {
+    margin-top: 0px;
+}
+.contactMsmeDetails {
+    max-width: 500px;
+    background-color: #fffdfa;
+    box-shadow: 0 12px 14px 0 rgb(0 0 0 / 10%);
+    margin-right: 15px;
+    padding: 40px;
+}
+p.getintouchparamain {
+    text-align: center;
+}
+.nonClickable {
+    pointer-events: none;
+}
+.facilationNavTab .facilationNav li.active:before:hover {
+    background-image: linear-gradient(to right,#fbf19e 5%,#f5ca6f 33%,#f8e793 73%,#dcaf4b 96%, #dcaf4b 100%);
+}
+/*-------------------------------------------- End past edition page -------------------------------------*/
+.videoMsmeImgMain {
+    position: relative;
+}
+img.playIconMain {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------Start Media query Css------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (min-width:1002px){
+.deskview {
+    display: block !important;
+}
+.deskviewflex{
+    display:flex;
+}
+.mobview, .menuOpenlogobox{
+    display:none !important;
+}
+.mobviewflex{
+    display:none !important;
+}
+
+/*------------------------------------ start partner section in min-width : 1002px; -------------------------*/
+
+.wtchlveprtnr .partner {
+    margin: 0 auto;
+}
+.partneraftrbner.lessth4 .parnersldrmain .slick-track {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+.partneraftrbner.lessth4 .parnersldrmain a {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: inline-block;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: unset;
+    margin-bottom: 16px;
+    margin-right: 42px;
+} 
+.parnersldrmain a {
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 150px;
+}
+.partneraftrbner.lessth4 .parnersldrmain .ptnrimgbox {
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    /*width: 195px;*/
+    width: 170px;
+    height: 104px;
+    /*box-shadow: 0 0 19px 0 rgb(202 202 202 / 50%);*/
+}
+.ptnrimgboxmain {
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 104px;
+    box-shadow: 0 0 19px 0 rgb(202 202 202 / 50%);
+}
+}
+
+
+/*------------------------------------ End partner section in min-width : 1002px; -------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------Start Media Query with min-width:1000------------------------------------------*/
+@media only screen and (max-width:1000px){
+.exploreButton {
+    position: absolute;
+    bottom: 3px;
+    z-index: 99;
+    left: 26px;
+    width: 60px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+.panel.panel-default.inds {
+    max-width: unset;
+    min-width: unset;
+}
+  
+/*------------------------------------------Start Common Css For mobile------------------------------------------*/
+.deskview{
+    display:none !important;
+}
+.deskviewflex{
+    display:none !important;
+}
+.mobview{
+    display:block !important;
+}
+.mobviewflex{
+    display:flex;
+}
+p{
+    font-size: 14px;
+}
+input, textarea, select{
+    padding: 10px 15px;
+}
+.buttonMain {
+    margin-top: 25px;
+}
+.pdngtbt70{
+    padding: 0px 0px 30px 0;
+}
+.pdngtb70 {
+    padding: 40px 0;
+}
+
+.form-group {
+    min-width: unset;
+}
+
+.dp_row.mobscroll {
+    overflow: hidden;
+    overflow-x: auto;
+    -webkit-flex-direction: row !important;
+    flex-direction: row !important;
+    padding: 0 0 15px;
+    flex-wrap: unset;
+    justify-content: flex-start;
+}
+.dp_row_dir_colmn_mob{
+    -webkit-flex-direction:column;
+	flex-direction:column;
+}
+.dp_row_dir_colmnrevs_mob {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+.breadcrum {
+    padding: 8px 10px;
+}
+.headersmal {
+    left: unset;
+}
+.headersmal > h1{
+    font-size: 36px;
+}
+
+/*---------------Start Video Popup Css For mobile-----------------*/
+.videogalry .videoContainer {
+    width: 96%;
+    margin: 0 auto;
+    height: auto;
+    padding: 30px 20px;
+}
+.videogalry .closePop {
+    float: right;
+    margin: 20px 20px 0 0;
+    cursor: pointer;
+}
+.videogalry .closePop img {
+    width: 16px;
+}
+.videogalry .videoContainer .vidIframe {
+    width: 100%;
+    height: 220px;
+}
+.videogalry .videoContainer p {
+    font-size: 18px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    margin: 10px 20px;
+}
+/*---------------End Video Popup Css For mobile-----------------*/
+/*---------------Start Right Icons Css-----------------*/
+.RightIconMain{
+    width: 100%;
+    top: 50%;
+    left: 0;
+    right: unset;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.rightIcons {
+    position: absolute;
+}
+.rightPrev{
+    left:0;
+}
+.rightNext{
+    right:0;
+}
+/*------------------------------------------End Common Css For mobile------------------------------------------*/
+
+/*--------------------------------Start Nav menu-collepsed for mobile------------------------------------*/
+/*.fixednav{*/
+/*    position: sticky;*/
+/*}*/
+.menuOpenlogobox{
+    margin-bottom: 40px;
+    max-width: 130px;
+}
+.menulogobox {
+    max-width: 120px;
+}
+
+.partnerLogo{
+    max-width:160px;
+}
+.fixednav, .navbarmain{
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.navbar {
+    padding: 20px;
+}
+.navbarmain:before{
+    height: 70px;
+    width: 101%;
+    left: -1px;
+}
+.navbarmain .navbar-brand{
+    padding: 0;
+    margin: 13px 15px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbarmain .navbar-nav{
+    left: 0;
+    transform: none;
+}
+ .navbarmain.stick .navbar-nav{
+    width: 100%;
+}
+.navbarmain .navbar-nav:after{
+    content:none;
+}
+.menubtn{
+    width: 36px;
+    height: 38px;
+    position: absolute;
+    right: 20px;
+    top: 21px;
+    background-color: #d7a857;
+    padding: 10px 5px;
+    margin: auto 0;
+}
+.menubtn > span:first-child {
+    margin-top: 0px;
+}
+.menubtn > span:last-child {
+    margin-bottom: 0px;
+}
+
+.fixednav.sticky .menubtn{
+    top: 17px;
+}
+.menubtn span{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin: 6px auto;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menubtn:hover{
+  cursor: pointer;
+}
+.menubtn.open{
+    top: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 999;
+    background-color: transparent;
+}
+.sticky .menubtn.open{
+    top: 23px;
+}
+.menubtn.open span{
+    background-color:#fff;
+}
+.menubtn.open span:nth-child(2){
+  width: 0px;
+}
+
+.menubtn.open span:nth-child(1),
+.menubtn.open span:nth-child(3){
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  margin: 0 auto;
+}
+
+.menubtn.open span:nth-child(1){
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.menubtn.open span:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(90deg);
+  -ms-transform: translateY(-13px) rotate(90deg);
+  -o-transform: translateY(-13px) rotate(90deg);
+  transform: translateY(-13px) rotate(90deg);
+}
+
+.collesped_menu{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+.collesped_menu .mobbg{
+    background-color: #041656;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    right: -300px;
+    text-align: left;
+    padding:90px 30px 15px;
+    transition: .4s cubic-bezier(0.43, 0.06, 0.46, 1.14);
+    z-index: 9;
+}
+.collesped_menu.open_menu{
+    
+    display: block;
+    width: 100%;
+}
+.collesped_menu.open_menu .mobbg{
+    right: 0;
+}
+.collesped_menu ul{
+	margin: 0;
+    padding: 0;
+    -webkit-flex-direction:column;
+	flex-direction:column;
+}
+.collesped_menu ul li{
+	padding: 0;
+	margin: 0 0 30px;
+	width:100%;
+    cursor: pointer;
+    position:relative;
+    height:auto;
+    display:block;
+}
+.collesped_menu .navbar-nav li {
+    margin-right: 0;
+}
+.collesped_menu .navbar-nav li.active:after, .collesped_menu .navbar-nav li:hover:after{
+    width: 100%;
+    left: -15px;
+}
+.navbar-nav>li>a:after{
+    content:none;
+}
+.toggle_menu, .menu_active{
+    position: relative;
+
+}
+.toggle_menu:before{
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: 88px;
+    width: 13px;
+    height: 7px;
+    background: url(https://economictimes.indiatimes.com/photo/70769840.cms) no-repeat;
+    transition: 0.40s;
+    -webkit-transition: 0.40s;
+    -moz-transition: 0.40s;
+    -ms-transition: 0.40s;
+    -o-transition: 0.40s;
+    transform: rotate(0deg);
+}
+.toggle_menu.menu_active:before,
+.toggle_menu.menu_active .mainmenu li.menu_active_sub:before{
+    transition: 0.40s;
+    -webkit-transition: 0.40s;
+    -moz-transition: 0.40s;
+    -ms-transition: 0.40s;
+    -o-transition: 0.40s;
+    background: url(https://economictimes.indiatimes.com/photo/70769842.cms) no-repeat;
+    transform: rotate(180deg);
+}
+.toggle_menu.menu_active .mainmenu li a{
+    color:#000;
+}
+.toggle_menu.menu_active a{
+    color:#ff0032;
+}
+.mainmenu,.submenu{display:none;}
+
+.collesped_menu ul li .submenu{
+    margin: 0;
+    padding: 0;
+}
+.collesped_menu ul li .submenu li{
+    padding: 5px 0;
+}
+.collesped_menu ul li .submenu li a{
+    font-size: 14px;
+}
+.mainmenu li{
+    border-top: 1px solid #ddd;
+}
+
+.mainmenu li a, .mainmenu li:first-child{
+    border-top:none;
+}
+.submenu{
+    display: none;
+}
+.toggle_menu ul{
+    padding:0 0 0 10px !important;
+}
+
+
+/*--------------------------------End Nav menu-collepsed for mobile------------------------------------*/
+
+/*--------------------------------Start Banner section for mobile------------------------------------*/
+.bannerScreendiv{
+    max-width: unset;
+    min-width: unset;
+    top: 54%;
+    transform: unset;
+    left: unset;
+    padding: 0 20px;
+}
+.bannerScreenHeading{
+    font-size: 20px;
+    line-height: 1.43;
+}
+.bannerScreenHeadingSpan > p {
+    font-size: 46px;
+    line-height: .7;
+}
+.BannerImageDate {
+    width: 240px;
+}
+.banenrImage {
+    width: 27px;
+    height: 27px;
+    margin-right: 6px;
+}
+p.bannerscreenPara {
+    font-size: 10px;
+}
+p.bannerscreenDate {
+    font-size: 21px;
+}
+p.bannerscreenParanew {
+    width: 90%;
+} 
+.polygonBackground{
+    z-webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 75%, 50% 100%, -150% 0%);
+    clip-path: polygon(50% 0%, 100% 0%, 100% 75%, 50% 100%, -150% 0%);
+    background-color: #041656;
+    height: 80vh;
+}
+.banerNext {
+    right: 0%;
+    top: 50%;
+}
+.banerPrev {
+    left: 0%;
+    top: 50%;
+    right: unset;
+}
+.bannerScreendivTwo {
+    position: unset;
+    max-width: unset;
+    min-width: unset;
+}
+.sldrimgBox {
+     -webkit-clip-path: unset; 
+    clip-path:unset;
+    width: 95%;
+    margin: 0 auto;
+    clip-path: unset;
+}
+.sldrimgBox > img {
+    height: 400px;
+}
+.bannerSliderMain {
+    position: relative;
+    top: -120px;
+}
+/*--------------------------------End Banner section for mobile------------------------------------*/
+
+/*-------------------------------Start footer section for mobile------------------------------------*/
+.mobBottomLine{
+    justify-content: center;
+}
+.mobBottomLine > p > a, .cpy {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-right: 10px;
+}
+
+/*--------------------------------End Footer section for mobile------------------------------------*/
+
+/*---------------------- Start  get in touch section for mobile-------------------*/
+.contactdetailsec{
+    display: block;
+    padding: 0 20px;
+}
+.cntdetailsbox {
+    margin: 30px auto 0;
+    height: auto;
+    max-width: unset;
+    min-width:unset;
+}
+.cntdetailsboxmain{
+    display: block;
+    margin: 15px 15px;
+}
+.cntdetailsboxsec {
+    position: unset;
+}
+.cntdetailsboxmain > .imagediv{
+ top: 2px;
+}
+.names >h3 {
+    text-align: center;
+}
+.generalmanager{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.emails {
+    justify-content: center;
+}
+.telph {
+    justify-content: center;
+}
+.getintouchpara{
+    font-size: 20px;
+}
+.cpy a{
+    display: block;
+}
+.cntctitle{
+    font-size: 55px;
+}
+.imagediv > img {
+    display: block;
+    margin: 0 auto;
+}
+.names .managerName{
+    margin: 20px 0 0 0;
+}
+ /*--------------------------------End  get in touch section for mobile---------------------------------*/
+
+
+
+
+/*---------------------------------------------Start Agenda section for mobile---------------------------------------------------*/
+.event_dp .container-fluid .three-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+}
+.event_dp .container-fluid ul.three-tabs > li {
+    margin: 5px 20px 20px 0px;
+    display: inline-block;
+    float: none;
+}
+.three-tabs{
+    margin-bottom: 0px !important;
+}
+.event_dp .container-fluid ul.three-tabs > li a {
+    padding: 5px 10px;
+}
+.event_dp .container-fluid .three-tabs{
+    height: auto;
+    padding: 0 10px;
+}
+a.programPhaseBtn {
+    margin-top: 25px;
+}
+.pastsecMain{
+    width: auto;
+}
+.pastsecMain > .pastsesrow {
+    flex-direction: column;
+}
+.pastseskeypnt h3.pastsesrgthead{
+    width: 60%;
+}
+.pastseskeypnt {
+    padding: 0 10px 0 0;
+}
+.spkrboxpastses {
+    width: 80px;
+    height: 80px;
+}
+.panelspkritem {
+    margin: 10px 5px;
+    max-width: 80px;
+    min-width: 80px;
+}
+.panelspkrsliderMain {
+    background: url(https://economictimes.indiatimes.com/photo/96735524.cms) no-repeat;
+    background-size: cover;
+}
+.singleVideoMain {
+    padding-bottom: 0;
+}
+/*---------------------------------------------End Agenda section for mobile---------------------------------------------------*/
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+.speakersSliderMain {
+}
+.speakersSliderMain .contentBox h2 {
+    font-size: 24px;
+}
+.speakersSliderMain .contentBox p {
+    font-size: 14px;
+}
+.speakersSliderIcons {
+    top: 42%;
+}
+.sliderIcons span {
+    background-size: 60px !important;
+    width: 60px;
+    height: 60px;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+/*---------------------------------------------Start Program Jury section for mobile---------------------------------------------------*/
+.jdp_colmn.jitem {
+    width: 169px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+.programJuSlider .jdp_colmn:nth-child(1), .programJuSlider .jdp_colmn:nth-child(3), .programJuSlider .jdp_colmn:nth-child(5){
+    margin-top: 0;
+}
+.jdp_colmn.jitem:nth-child(2n) {
+    margin-right: 0px;
+}
+.programJuSlider .jdp_colmn:nth-child(7), .programJuSlider .jdp_colmn:nth-child(9), .programJuSlider .jdp_colmn:nth-child(11){
+    position: unset;
+}
+h3.pjSpeaker{
+    font-size: 18px;
+}
+p.pjDesignation, p.pjDesignationa{
+    font-size: 13px;
+}
+.pjurySpeakers {
+    width: auto;
+}
+.jdp_colmn_v1.jitem_v1 {
+    width: 170px;
+    margin: 0 10px;
+}
+.juryPrev {
+    left: 0%;
+    top: 50%;
+}
+.juryNext {
+    right: 0%;
+    top: 50%;
+}
+/*---------------------------------------------End Program Jury section for mobile---------------------------------------------------*/
+
+/*---------------------------------------------Start Program Phase section for mobile---------------------------------------------------*/
+.container {
+    width: 100%;
+}
+.programphasePara{
+    text-align: left;
+}
+.containerAssopart {
+    width: 100% !important;
+} 
+/*---------------------------------------------End Program Phase section for mobile---------------------------------------------------*/
+
+/*---------------------------------------------Start Award Categories section for mobile---------------------------------------------------*/
+p.categoriesPara{
+    text-align: left;
+}
+.box-width:after{
+    content: none;
+}
+.box-width {
+    border-right: 0px;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 15px;
+    margin: 15px 0;
+    max-width: 300px;
+    min-width: 300px;
+}
+.box-width:last-child {
+    border-bottom: none;
+}
+.reward-sec{
+    display: block;
+}
+
+/*---------------------------------------------End Award Categories section for mobile---------------------------------------------------*/
+
+/*---------------------------------------------Start partner section for mobile---------------------------------------------------*/
+.prtnerwthoutRegform.wtchlveprtnr {
+    margin-top: 10px;
+}
+.ptnerblwmstslider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.partnerItem{
+    max-width: 150px;
+    min-width: 150px;
+    margin: 0 10px;
+}
+.partneraftrbner.lessth4 .parnersldrmain .ptnrimgbox {
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 19px 0 rgb(202 202 202 / 50%);
+    margin-bottom: 10px;
+}
+.past_partner .partnerAssociations a{
+    max-width: 140px;
+}
+.ptnrimgboxAsso{
+    width: 160px !important;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 0 7px 27px 0 rgba(0, 0, 0, 0.08);
+}
+.ptnrimgboxAsso > img {
+    width: auto;
+    margin: auto;
+    height: 74px;
+}
+/*.past_partner .partner a:nth-child(5n), .partner a:last-child{*/
+/*    margin: 0px 0px;*/
+/*}*/
+/*.past_partner .partnerAssociations a:nth-child(5n) {*/
+/*    margin-right: 22px !important;*/
+/*}*/
+.parnersldrmain  {
+    max-width: unset;
+}
+.partner h4{
+    margin-bottom: 10px;
+}
+.ptnrimgboxmain {
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 330px;
+    height: 104px;
+    box-shadow: 0 0 19px 0 rgb(202 202 202 / 50%);
+}
+.container1150 {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.inner_logosec {
+    display: block;
+    width: 100%;
+}
+.plogoftmain {
+    max-width: 330px;
+    margin: 0 auto 20px;
+}
+.logoContainer {
+    min-width: unset;
+}
+.logoContainer a {
+    display: inline-block;
+    width: 40% !important;
+    margin: 0 5%;
+}
+.itempartnerAsso {
+    max-width: 140px;
+    min-width: 140px;
+    margin-right: 10px;
+}
+.partnerAssociA > .slick-list .slick-track .slick-slide > div {
+    width: 100%;
+}
+.vdsldriconsdiv {
+    /*position: relative;*/
+}
+#aboutsec .partnerAssociAs .pasmsme .vdsldriconsdiv {
+    position: relative;
+}
+.partner .ptnrimgbox img {
+    padding: 0 10px;
+}
+.pastassH4{
+    width: 160px;
+    margin-left: 10px !important;
+}
+/*---------------------------------------------End partner section for mobile---------------------------------------------------*/
+
+/*---------------------------------------------Start Articles section for mobile---------------------------------------------------*/
+.dp_rowdir_clmn_onlyMob{
+    display: block;
+}
+.leftArticleBox {
+    max-width: unset;
+    min-width: unset;
+    border-right: 0px;
+    margin: 0 auto;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+.leftArticleBox > .media_left {
+    max-width: unset;
+}
+.rightArticleBox {
+    max-width: unset;
+    min-width: unset;
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0px;
+}
+.articleBoxs:first-child {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+
+
+/*---------------------------------------------End Articles section for mobile---------------------------------------------------*/
+
+/*---------------------------------------------Start still have question section for mobile---------------------------------------------------*/
+.containerQues {
+    width: auto;
+}
+.titleQues {
+    font-size: 30px;
+    font-family: Roboto;
+}
+p.stillhaveQuespara{
+    font-size: 13px;
+}
+.stillhaveQuesImg {
+    background-image: url(https://economictimes.indiatimes.com/photo/93616662.cms);
+    background-position:  right bottom;
+    background-repeat: no-repeat;
+    background-size: 170px;
+    padding-bottom: 70px;
+}
+section.stillhaveQues {
+    padding: 20px 10px;
+}
+
+
+/*---------------------------------------------End still have question section for mobile---------------------------------------------------*/
+
+/*--------------------------------------------StartGallery section for mobile---------------------------------------------------*/
+
+
+.galleryMain button.slick-prev {
+    top: 51.6%;
+}
+.galleryMain button.slick-next {
+    top: 36.6%;
+}
+
+
+/*--------------------------------------------End Gallery section for mobile---------------------------------------------------*/
+
+/*------------------------------------------- Start inner page css for msmeawards 2022 for mobile ------------------------------*/
+
+/*----------------------------- start agenda inner page csss for mobile -------------------------------------------*/
+.tabagenda .agendawid {
+    width: 100%;
+    padding: 0px;
+    border-left: 0px;
+}
+.agendaboxmain .scheduleBox{
+    width: 90%;
+}
+.innerdetails h4:before{
+    content: none;
+}
+.timesecagnda h3{
+    font-size: 18.1px;
+}
+.innerdetails > h3 {
+    font-size: 14.1px;
+}
+.innerdetails h4 {
+    font-size: 23px;
+    font-family: 'Roboto';
+}
+.peopleimgbox.popimg {
+    width: 64px;
+    height: 64px;
+}
+.peoplesec h3 {
+    font-size: 12px;
+}
+.peoplesec .popdeg {
+    font-size: 10px;
+}
+.peoplesec .popdegA {
+    font-size: 10px;
+}
+.event_dp .container-fluid .agendaArrowtabs {
+    margin: 0px 0px !important;
+}
+.tabsMainBox .tabbabletab{
+    display: flex;
+}
+/*----------------------------- End agenda inner page csss for mobile -------------------------------------------*/
+
+/*- ---------------------------start program phase inner section for mobile  -------------------*/
+.phaseProgram {
+    display: block;
+    overflow: hidden;
+}
+.phaseProgramDivmain.active:before, .phaseProgramDivmain:before{
+    content: none;
+}
+.phaseProgram .phaseProgramDiv.active:before, .phaseProgram .phaseProgramDiv:before {
+    content: none;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv.active:before, .phaseProgramDivmain.active > .phaseProgramDiv:before {
+    content: none;
+}
+.phaseProgramDiv.active:after, .phaseProgramDiv:after{
+    content: none;
+}
+.phaseProgramDiv1{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+p.ppphase1 {
+    font-size: 18px;
+     text-align: left; 
+    padding-left: 80px;
+    font-weight: bold;
+}
+p.ppphasedate {
+    font-size: 18px;
+    padding-left: 80px;
+    font-weight: bold;
+    text-align: left;
+}
+.phaseProgramDiv.active, .phaseProgramDiv {
+    margin: 0px 20px 0px 80px;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv{
+    margin: 0px 20px 0px 80px;
+}
+.phaseProgramDivbefore.active:before {
+    content: '';
+    background: #fff;
+    color: #000;
+    border: 4px solid #041454;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+.phaseProgramDivmain.active > .phaseProgramDiv1 > .phaseProgramDivbefore.active:before {
+    content: '';
+    background: #fff;
+    color: #000;
+    border: 4px solid #041454;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+.phaseProgramDivbefore:before, .phaseProgramDivmain > .phaseProgramDiv1 > .phaseProgramDivbefore:before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: #f6f6f6;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+    transform: rotate(90deg);
+    border: 4px solid #858585;
+    position: absolute;
+    top: 110px;
+    left: 18px;
+}
+.phaseProgramDivbefore.active:after, .phaseProgramDivmain.active > .phaseProgramDiv1 > .phaseProgramDivbefore.active:after {
+    background: linear-gradient(to right, #a4b6ff 35%, #02145a 100%);
+    transform: rotate(90deg);
+    position: absolute;
+    left: -40%;
+    top: -60px;
+}
+.phaseProgramDivbefore:after, .phaseProgramDivmain > .phaseProgramDiv1 > .phaseProgramDivbefore:after {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #f6f6f6;
+    position: absolute;
+    left: 0%;
+    top: 19px;
+    z-index: -1;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -40%;
+    top: -50px;
+}
+.phaseProgramDivmain.active:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #ffe9e2;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    border-left: 0px;
+}
+.phaseProgramDivmain:last-child:after {
+    content: '';
+    width: 50%;
+    height: 4px;
+    background: #f6f6f6;
+    position: absolute;
+    left: -15%;
+    top: 72%;
+    z-index: -1;
+    transform: rotate(90deg);
+}
+.phaseProgramDivmain:before, .phaseProgramDivmain:last-child:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #f8f8f8;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    border-left: 0px;
+}
+
+/*- ---------------------------endmobile program phase inner section for mobile  -------------------*/
+
+/*------------------------- start partner show section for mobile -------------------*/
+.partnershowpage .aboutptnr_content {
+    padding: 0 20px;
+}
+.partnershowpage .aboutptnr_content .aboutlogo {
+    margin: 0 20px 16px 0;
+    max-width: 150px;
+}
+.partnershowpage iframe.youtubeVideo {
+    display: block;
+    width: 100%;
+}
+.containerace {
+    display: block;
+}
+.parshdiv {
+    max-width: 100%;
+    min-width: 100%;
+    margin-right: 0px;
+}
+.containerace .parshdiv:nth-child(2), .containerace .parshdiv:nth-child(3), .containerace .parshdiv:nth-child(4){
+    margin-top: 10px;
+}
+.aboutptnr_content a {
+    font-size: 19px;
+}
+.parshopara {
+    font-size: 20px;   
+}
+.parshdiv > p {
+    font-size: 20px;
+}
+.container1000.containerace.dp_row {
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+}
+.discusbox {
+    width: auto;
+    height: auto;
+}
+.dp_row.parnersfslide {
+    display: block;
+}
+.dp_row.dp_justifycontentcenter.parnersfounder {
+    display: block;
+}
+.founderimg {
+    margin-top: 20px;
+}
+.partner.partner_slide {
+    width: 150px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+
+/*------------------------- End partner show section for mobile -------------------*/
+
+
+/*-------------------------------------- STArt award categories inner section for Mobile ----------------------*/
+.firstAwardimg {
+    margin-right: 10px;
+    max-width: 154px;
+    min-width: 154px;
+    margin: 0 auto;
+}
+p.firstAwardpara{
+    width: 100%;
+    padding: 0 10px;
+}
+.awardcategoryUL > li:before {
+    content: '';
+    position: absolute;
+    width: 2%;
+    height: 1px;
+    background-color: #041454;
+    top: 10%;
+    left: -6.1%;
+}
+.firstawardCategory2 {
+    margin-bottom: 30px;
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    padding: 0 10px;
+}
+.firstawardCategory3 {
+    margin-bottom: 30px;
+    width: 100%;
+    margin-right: 0;
+    height: auto;
+    padding: 0 10px;
+}
+.firstawardCategory4 {
+    margin-top: 0px;
+}
+.firstawardCategory4 > .awardBorderleft > .awardcategoryUL > li:before {
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 1px;
+    background-color: #041454;
+    top: 10%;
+    left: -6%;
+}
+.headersmalAward > h1 {
+    font-size: 35px;
+}
+#faqsSec {
+    background: transparent;
+    padding: 0 10px;
+}
+#faqsSec:before{
+    content: none;
+}
+.titleques {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: condensed;
+    text-align: left;
+}
+.dpfaqsmain .maincntbox p {
+    color: #2c2c2c;
+    font-size: 14px;
+    text-align: left;
+    padding: 0px;
+}
+.panel.panel-default {
+    max-width: unset;
+    min-width: unset;
+    margin-right: 0px;
+}
+.displayflex {
+    display: block;
+}
+.faqs {
+    max-width: unset;
+}
+.firstawardCategoryA{
+    margin-bottom: 25px;
+}
+.navThreetabs{
+    margin-bottom: 0px !important;
+}
+.navThreetabs > li {
+    padding-top: 10px;
+}
+/*-------------------------------------- End award categories inner section for Mobile ----------------------*/
+p.categoriesHeading {
+    font-size: 20px;
+    line-height: normal;
+}
+.evaluationDiv {
+    padding: 5px;
+}
+/*------------------------------------------- End inner page css for msmeawards 2022  for mobie ------------------------------*/
+
+/*--------------------------------- Start nomination section ------------------------------------------------------------*/
+
+.nominationsAward .event_dp .container-fluid ul li a {
+    font-size: 12px;
+}
+.nominationsAward .event_dp .container-fluid ul.three-tabs > li {
+    margin: 5px 5px 5px 5px;
+    display: inline-block;
+    float: none;
+}
+.nominationsAward .nominationsNav ul.three-tabs > li{
+    margin: 5px 5px 20px 5px !important;
+}
+.nominationsAward .event_dp .container-fluid .nominationsNav ul li a {
+    font-size: 14px;
+}
+.nominationsNav > ul {
+    display: flex !important;
+}
+.nominationsAward {
+    padding: 0 10px;
+}
+.nominationMainDivUl {
+    padding: 10px 10px;
+    border-radius:35px;
+}
+.nomination-list.active {
+    display: inline-block !important;
+}
+
+/*------------------------------------ End Nomination section --------------------------------------------------------------*/
+
+/*---------------------- start winner section for desktop -----------------------------------------------------------------*/
+
+h2.titleWinner {
+    font-size: 24px;
+}
+h3.winnerSecH3:before {
+    content: '';
+    position: absolute;
+    top: 9px;
+}
+.winnerSecH3 {
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.winnerOneDiv {
+    margin: 40px 0;
+}
+.winnerOneAward:before {
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 75%;
+    height: 100%;
+    padding: 90px;
+    left: 49px;
+    top: -30px;
+}
+.msmeWinnerTitle {
+    font-size: 24px;
+    padding-top: 70px;
+}
+
+.winnerFourChild {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+}
+.winnerHeading {
+    padding: 0 20px;
+}
+.msmeWinnerDots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.msmeWinnerDots ul.slick-dots {
+    position: static;
+}
+.msmeWinnerDots .slick-dots li, .msmeWinnerDots .slick-dots li button {
+    height: 5px;
+    width: 5px;
+    position: relative;
+    left: -1px;
+    bottom: 0;
+}
+.msmeWinnerDots .slick-dots li button:before {
+    line-height: 5px;
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+}
+.msmeWinnerDots .slick-dots li button:before {
+    background: #fff;
+}
+.msmeWinnerDots .slick-dots li.slick-active, .msmeWinnerDots .slick-dots li.slick-active button {
+    width: 25px;
+}
+.msmeWinnerDots .slick-dots li.slick-active button:before {
+    width: 25px;
+    border-radius: 20px;
+    background: #b18540 !important;
+    opacity: 1;
+}
+/*------------------------- end winner section for mobile ----------------------------------------------------------------*/
+
+/*--------------------------- start article inner section for mobile -----------------------------------------------------*/
+
+section#article:before {
+    content: '';
+    position: absolute;
+    background-color: #eee;
+    width: 100%;
+    height: 340px;
+    z-index: -1;
+    top: 180px;
+}
+.fstArtMain {
+    margin-top: 0px;
+}
+.articleMain.pages .fstArtMain .articleBox {
+    max-width: unset;
+}
+.artImg.articlepage {
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+    border: none; 
+}
+.mainParaDesc {
+    position: unset;
+}
+.aligncenter.artCnt {
+    position: unset;
+}
+.fstArtMain .articleBox .artCnt p {
+    font-size: 20px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: unset;
+}
+.fstArtMain .articleBox .artCnt {
+    padding: 30px 15px 10px;
+}
+.fstArtMain .articleBox .artCnt .articleDescrPara {
+    font-size: 12px;
+    line-height: 1.33;
+}
+.allArticlesSec{
+    padding: 15px 15px 0px;
+}
+a.articleBoxsSec.pagess:nth-child(4n) {
+    margin: 7px auto !important;
+}
+a.articleBoxsSec.pagess {
+    /*max-width: unset;*/
+    max-width: 340px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    margin-bottom: 15px;
+    margin: 7px auto;
+}
+.artImgs {
+    height: auto;
+    max-width: 163px;
+    min-width: 163px;
+    margin-right: 13px;
+}
+.artCnts p {
+    font-size: 16px;
+    padding-top: 0px;
+}
+.articlesIconsDiv {
+    position: unset;
+    line-height: unset;
+}
+button.articlePrev {
+    position: absolute;
+    left: 0px;
+    top: 23%;
+}
+button.articleNext {
+    position: absolute;
+    right: 0px;
+    top: 22%;
+    left: unset;
+}
+.articleDots {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    top: 68%;
+    right: 0%;
+}
+.articleSecDiv {
+    margin-top: 0px;
+}
+/*--------------------------- end article inner section for mobile -------------------------------------------------------*/
+
+/*------------------------------ Start mobile design msmeawards 2023 -------------------- */
+.title {
+    font-size: 38px;
+}
+p.categoriesParap {
+    font-family: 'Inter';
+    font-size: 20px;
+    text-align: left;
+}
+p.categoriesPara {
+    font-family: 'Inter';
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.programPhaseContainer {
+    background-color: #ffedd0;
+    height: auto;
+    padding: 15px;
+    display: block;
+}
+.programPhaseleft {
+    min-width: unset;
+    max-width: unset;
+    display: block;
+}
+.articleMainSec {
+    box-shadow: 7px 7px 14px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 360px;
+    margin: 0px auto;
+    border-radius: 0 0 0 25px;
+}
+.articleHeadingPara {
+    height: auto;
+    overflow-y: unset;
+    margin: 0px;
+    padding: 20px;
+}
+h2.articleMainHeading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.singleVideoBox {
+    height: 300px;
+    width: 100%;
+}
+.videosmultiSliderMain {
+    max-width: 100%;
+    min-width: 100%;
+    position: static;
+    margin-top: 30px;
+    transform: unset;
+}
+.videoIcons {
+    margin: 0px 0 0 0px;
+    padding-bottom: 50px;
+}
+.headermain {
+    background-image: none;
+}
+.fixednav.navbgwht .headermain {
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 0px 0px;
+}
+nav.navbar {
+    position: relative;
+    width: 100%;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    margin-bottom: 0;
+    background-color: #000;
+}
+
+/*-------------------------- End mobile design for msmeawards 2023 -----------------------*/
+
+
+/*----------------------- start mobile design for new video section ---------------------*/
+
+.videoMainBoxNew {
+    display: block;
+}
+.singleVideoBoxNew {
+    width: 100%;
+    height: 300px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    padding: 0 10px;
+}
+p.singleVideoBoxNewPara {
+    font-size: 18px;
+}
+.videosmultiSliderMainNew {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.multiVideoBoxNew {
+    padding-bottom: 20px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/*----------------------- End mobile design for new video section -----------------------*/
+
+.headerOtherPages nav.navbar {
+    padding: 13px 10px;
+}
+.headerOtherPages  .headermain {
+    background-image: linear-gradient(92deg, rgba(255, 255, 255, 0.74) 100%, rgba(169, 169, 169, 0.35) 31%, rgba(103, 103, 103, 0) 103%);
+    width: 100%;
+    background-color: #000;
+}
+.mainConatiner nav.navbar {
+    padding: 13px 10px;
+}
+.mainConatiner .headermain {
+    background-image: linear-gradient(92deg, rgba(255, 255, 255, 0.74) 100%, rgba(169, 169, 169, 0.35) 31%, rgba(103, 103, 103, 0) 103%);
+    width: 100%;
+}
+.fixednav.navbgwht .headermain {
+    background-color: #000;
+    border-radius: 0px;
+    padding: 9px 20px; 
+}
+.mainConatiner nav.navbar {
+    background-color: transparent; 
+}
+/*----------------------------------------- Start pastedition section css for mobile -------------------------------------*/
+
+h2.pastAboutHeading {
+    font-size: 21.5px;
+}
+p.pastAboutPara {
+    font-size: 14px;
+}
+.pastBannerRegister>a {
+    font-size: 16px;
+    width: 190px;
+}
+h2.titlePast {
+    font-size: 30.7px;
+    padding-bottom: 20px;
+}
+section.pastEdetionAttend:before {
+    background-size: cover;
+}
+.pastEditionAttend {
+    width: 170px;
+    height: 210px;
+}
+.pastEditionAttend .pastEditionImg {
+    margin: 0 0 0;
+}
+.pastEditionNum>p, p.pastEditPara {
+    text-align: left; 
+}
+ul.facilationNav {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block !important;
+    margin: auto;
+    text-align: center;
+}
+.facilationNavTab .facilationNav li {
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+    float: none;
+}
+.juryPastPanelMain {
+    padding-top: 25px;
+}
+.juryPanelCard {
+    width: 360px;
+    height: 380px;
+    margin: 10px 20px;
+}
+h3.juryPanelName {
+    font-size: 24px;
+}
+p.juryPanelFounder {
+    font-size: 12px;
+}
+.juryPanelImgDiv {
+    max-width: 220px;
+    max-height: 220px;
+}
+h2.pastWinnerTitle {
+    font-size: 19.7px;
+}
+.pdngtb60 {
+    padding: 20px 0;
+}
+p.winnerMicoPra {
+    width: 230px;
+}
+h2.titlePast {
+    font-size: 23.2px;
+}
+.pastsingleVideoBoxNew {
+    height: 300px;
+    margin: 50px 10px 0px;
+}
+h2.titlePrevPartner {
+    font-size: 24px;
+}
+.partnerAssociAsm .pasmsme {
+    margin: 0 20px;
+}
+h4.pastassH4 {
+    width: 100%;
+}
+h4.pastassH4 {
+    width: 100%;
+    margin-left: 0px !important;
+}
+.partnerAssociAm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.partnerAssociAs {
+    padding: 0 15px;
+}
+h2.title.titlePrevPartner {
+    font-size: 24px;
+}
+.rotateImgDiv {
+    margin-right: 0px; 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+.outerImgDiv {
+    width: 115px;
+    height: 115px;
+    background: url(https://economictimes.indiatimes.com/photo/102130434.cms) no-repeat;
+    background-size: cover;
+    animation: rotate 10s linear infinite;
+    position: relative;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.contsctMsmeDetailsMain {
+    display: block;
+}
+.contactMsmeDetails {
+    margin: 10px;
+    padding: 40px 25px;
+}
+h3.firstAwardHeadng {
+    font-size: 28px;
+    padding: 0 10px;
+}
+.faqs .panel-title>a {
+    font-size: 22px;
+}
+.faqs .panel-body p {
+    font-size: 18px;
+}
+
+/*----------------------------------------End pastEdition section css for mobile -------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------End Media Query with min-width:1000------------------------------------------*/
+}
+@media (min-width: 350px) and (max-width: 381px)  {
+.bannerScreendiv {
+    top: 50% !important;
+}   
+}    
+
+
+@media (min-width: 750px) and (max-width: 999px)  {
+.winnerOneDiv {
+    margin: 40px 10px !important;
+} 
+.artImg.articlepage > img {
+    margin: 0 auto;
+}
+button.articlePrev {
+    top: 37%;
+}
+button.articleNext {
+    top: 36%;
+}
+.articleDots {
+    top: 85%;
+}
+}   
+@media (min-width: 600px) and (max-width: 749px)  {
+.artImg.articlepage > img {
+    margin: 0 auto;
+}
+button.articlePrev {
+    top: 37%;
+}
+button.articleNext {
+    top: 36%;
+}
+.articleDots {
+    top: 82%;
+}
+}  
+@media (min-width: 424px) and (max-width: 600px)  {
+.artImg.articlepage > img {
+    margin: 0 auto;
+}
+.articleDots {
+    top: 78%;
+}
+}  
+@media (min-width: 360px) and (max-width: 410px)  {
+.winnerCompanyDiv {
+    margin: 0px !important;
+} 
+.specialWinnerPara {
+    width: 250px;
+}
+.winBombayDiv{
+    position: relative;
+}
+.winBombayDiv:before{
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 75%;
+    height: 100%;
+    padding: 85px;
+    left: 49px;
+    top: -30px;
+}
+.winnerCompanyName {
+    text-align: center;
+    padding: 15px 15px;
+}
+.winnerCompanyDiv {
+    margin: 0px !important;
+    width: 350px;
+    background-size: 100%;
+    height: 76px;
+}
+.winnerThreeDiv {
+    padding: 0 20px;
+}
+.winnerCompNameDi {
+    text-align: center;
+    padding: 24px 15px;
+}
+.winnerOneTopDiv{
+    position: relative;
+}
+.winnerOneTopDiv:before {
+    content: '';
+    position: absolute;
+    border: 10px solid #fff0b6;
+    width: 75%;
+    height: 100%;
+    padding: 84px;
+    left: 49px;
+    top: -30px;
+}
+}
+@media (min-width: 320px) and (max-width: 360px){
+.specialWinnerPara {
+    width: 240px;
+}
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 769px){
+
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+.speakersSliderMain {
+    max-height: 333px;
+}
+.speakersSliderMain .itemBox{
+    min-width: 142px;
+    max-width: 142px;
+    min-height: 333px;
+    max-height: 333px;
+    margin: 0 0 0 10px;
+}
+.speakersSliderMain .item.slick-current {
+    min-width: 300px;
+    max-width: 300px;
+    margin: 0;
+}
+.speakersSliderMain .item.slick-current .itemBox {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.speakersSliderMain .itemDetailBox {
+    min-width: 300px;
+    max-width: 300px;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+
+}
+@media only screen and (max-width: 669px){
+
+/*---------------------------------------------- start banner images section in 670px -----------------------------*/
+.sldrimgBox > img{
+    height: auto;
+}
+
+/*---------------------------------------------- Endbanner images section in 670px -----------------------------*/
+
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+
+.speakersSliderMain .itemBox{
+    min-width: 124px;
+    max-width: 124px;
+    min-height: 333px;
+    max-height: 333px;
+    margin: 0 0 0 10px;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+ /*--------------------- get in touch in 670 px ---------------------------*/
+.cntdetailsbox{
+     width: 100%;
+}
+.cntdetailsboxmain {
+    justify-content: center;
+}
+/*-------------------------------- End get in touch section for mobile ------------------------------------*/
+
+
+
+}
+@media only screen and (max-width: 569px){
+
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+
+.speakersSliderMain .itemBox{
+    min-width: 132px;
+    max-width: 132px;
+    min-height: 333px;
+    max-height: 333px;
+    margin: 0 0 0 10px;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+
+}
+@media only screen and (max-width: 428px){
+ .polygonBackground {
+    height: 60vh;
+ }
+}
+@media only screen and (max-width: 405px){
+
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+.speakersSliderMain .itemBox {
+    min-width: 112px;
+    max-width: 112px;
+}
+.polygonBackground {
+    height: 60vh;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+}
+@media only screen and (max-width: 380px){
+    /*---------------- start banner div position on top ----------*/
+.bannerScreendiv {
+    top: 12%;
+    left:4%;
+}
+.polygonBackground {
+    height: 80vh;
+ }
+/*----------------End banner div position on top ----------*/
+
+ /*-------------------------------------------- start program jury for mobile --------------------------*/
+ .jdp_colmn.jitem {
+    width: 150px;
+}
+.partnerAssociations a {
+   max-width: 140px;
+}
+.ptnrimgboxAsso {
+    width: 140px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+/*-------------------------------------------- end program jury for mobile --------------------------*/
+
+}
+@media only screen and (max-width: 366px) {
+    
+/*---------------- start banner div position on top ----------*/
+.bannerScreendiv {
+    top: 14%;
+}
+.polygonBackground {
+    height: 80vh;
+ }
+/*----------------End banner div position on top ----------*/
+
+/*------------------------------------------Start Speakers section for mobile---------------------------------------------------*/
+.speakersSliderMain .itemBox {min-width: 102px;
+    max-width: 102px;
+}
+/*------------------------------------------ENd Speakers section for mobile---------------------------------------------------*/
+}
+/*---------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------End Media query Css------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------*/
+
+/*--------------------- BehindLogin CSS Start-------------------- */
+.overflowhide{
+    overflow: hidden;
+}
+.authenticatePop {
+	position: fixed;
+	z-index: 1000000;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	display: none;
+	width: 400px;
+	border: 1px solid #000;
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: -2px -5px 25px #fff;
+}
+
+.authenticatePop h2 {
+	font-size: 17px;
+	margin: 7px;
+}
+.authenticatePop label{
+    width: 100px;
+}
+.authenticatePop input {
+	padding: 6px;
+	border-radius: 10px;
+	margin: 6px;
+	border: 1px solid;
+	width: 250px;
+}
+
+.authenticatePop .submit {
+	padding: 7px 40px;
+    display: inline-block;
+    background: #F26B2C;
+    margin: 10px auto;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.authenticatePop-overlay {
+	display: none;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	z-index: 99998;
+	opacity: .9;
+}
+
+.showError {
+	width: 100%;
+	font-size: 14px;
+	color: red;
+	display: inline-block;
+}
+@media only screen and (max-width: 1000px) {
+	.authenticatePop {
+		width: calc(100% / 1.2);
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+}      
+.pasmsme {
+    position: relative;
+}    
