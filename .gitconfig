@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = C:/Users/jagdish.dhami/project_02
+[user]
+	name = Jagdishsinghdhami
+	email = jagdishdhami64@gmail.com
+[core]
+	editor = nano
+[http]
+	sslVerify = false
+	sslCAInfo = C:/Users/jagdish.dhami/AppData/Local/Programs/Git/etc/ssl/certs/ca-certificates.crt
